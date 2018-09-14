@@ -1,4 +1,4 @@
-# Emtornos de ejecución
+# Entornos de ejecución
 
 ## Definición
 
