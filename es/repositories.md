@@ -1,14 +1,25 @@
 # Repositorios
 
+Contenido:
+
+- [Introducción](#nociones)
+- [Conceptos básicos](repositories/repositories-basic-concepts.md)
+- Acciones principales: clone, commit, push, fetch, pull
+- Colaboración: Branching & merging, resolución de conflictos
+- Conceptos de "git flow": master, develop, feature, release, hotfix
+- Versionado: Tags
+
+## Introducción
+
 El código fuente es un activo de los más importantes dado que estamos desarrollando software.
 
 Los repositorios de código nos ayudan a mantener nuestro principal activo en un lugar donde podemos guardar de forma controlada cada uno de los cambios que hacemos en nuestra aplicación.
 
-## git
+### git
 
 Urtilizaremos [git](https://git-scm.com/) como gestor de versiones distribuido. Dispone de una aplicación que se instala en nuestro sistema, habilitando el comando "git" a nivel de consola. Podemos también utilizar alguno de los gestores gráficos, como [Source Tree](https://www.sourcetreeapp.com/). Es muy recomendable tener dominio del comando `git` y manejarlo con soltura.
 
-## Alojamiento como servicio: Github, Gitlab y Bitbucket
+### Alojamiento como servicio: Github, Gitlab y Bitbucket
 
 Aunque es posible alojar los repositorios con el código fuente de nuestra aplicación en un servicio gestionado y mantenido por nosotros, gracias a los servicios de alojamiento de repositorios online como Github, Gitlab o Bitbucket la popularidad de `git` como gestor de repositorios se ha convertido en un estandar de facto.
 
