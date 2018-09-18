@@ -27,3 +27,30 @@ Utilizando ambas herramientas, `git` junto con algún servicio centralizado de r
 
 Esto forma parte del flujo de trabajo [git flow](https://nvie.com/posts/a-successful-git-branching-model/). Aunque existen múltiples flujos de trabajo sobre `git`, nosotros iutilizaremos git flow en esta documentación.
 
+## Test lab
+
+Prueba a descargar esta documentación usando `git` para crear una copia local del repositorio en tu PC
+
+```console
+MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/red-panda-ci/red-panda-ci-symfony.git
+Cloning into 'red-panda-ci-symfony'...
+remote: Counting objects: 220, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 220 (delta 2), reused 5 (delta 1), pack-reused 211
+Receiving objects: 100% (220/220), 43.77 KiB | 311.00 KiB/s, done.
+Resolving deltas: 100% (75/75), done.
+MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ ls
+red-panda-ci-symfony
+MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ cd red-panda-ci-symfony/
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ ls
+CHANGELOG.md			bin				nginx				source
+Jenkinsfile			ci-scripts			php7-fpm
+README.md			docker-compose.yml		sonar-project.properties
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+```
+
+Una vez descargado el repositorio como copia local se puede echar un vistazo al código. Nuestra copia está de alguna forma _conectada_ al servidor central en Github, veremos los detalles más adelante.
