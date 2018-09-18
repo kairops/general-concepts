@@ -2,7 +2,7 @@
 
 ## Definición
 
-Definido como un conjunto de elementos que habilita la ejecución de la aplicación.
+Conjunto completo de elementos que habilita la ejecución de una aplicación.
 
 Como "elemento" podemos ubicar un servicio, como el servicio web proporcionado por apache o nginx, un motor de base de datos como podría ser mysql, un certificado HTTPS, un nombre de dominio, el almacenamiento donde guardamos los archivos subidos por el usuario... virtualmente podría tratarse de cualquier cosa que ayude a que nuestra aplicación funcione.
 
