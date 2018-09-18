@@ -2,7 +2,7 @@
 
 Contenido:
 
-- [Introducción](#nociones)
+- [Introducción](#introducción)
 - [Conceptos básicos](repositories/repositories-basic-concepts.md)
 - Acciones principales: clone, commit, push, fetch, pull
 - Colaboración: Branching & merging, resolución de conflictos
