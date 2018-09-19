@@ -19,7 +19,7 @@ Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI s
 ## Repositorios
 
 - [Conceptos básicos](repositories/repositories-basic-concepts.md)
-- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, pushg, pull
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
 - Colaboración: Branching & merging, resolución de conflictos
 - Conceptos de "git flow": master, develop, feature, release, hotfix
 - Versionado: Tags
