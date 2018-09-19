@@ -29,7 +29,7 @@ Esto forma parte del flujo de trabajo [git flow](https://nvie.com/posts/a-succes
 
 ## Test lab
 
-Prueba a descargar esta documentación usando `git` para crear una copia local del repositorio en tu PC
+Prueba a descargar un repositorio alojado en Github usando `git` para crear una copia local del repositorio en tu PC
 
 ```console
 MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/red-panda-ci/red-panda-ci-symfony.git
@@ -53,4 +53,13 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-Una vez descargado el repositorio como copia local se puede echar un vistazo al código. Nuestra copia está de alguna forma _conectada_ al servidor central en Github, veremos los detalles más adelante.
+Una vez descargado el repositorio como copia local se puede echar un vistazo al código, modificar, añadir cambios y subirlos de nuevo al servidor remoto. Nuestro proyecto está de alguna forma _conectada_ tanto al servidor central en Github como a la carpeta de nuestro disco duro que contiene el proyecto.
+
+Github es un servicio de alojamiento de repositorios gratuito para proyectos públicos. Se puede utilizar para crear nuestros propios repositorios y practicar.
+
+
+## Recursos
+
+- [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
+- [Guía básica de github para principiantes](https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c)
