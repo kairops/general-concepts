@@ -32,7 +32,7 @@ Esto forma parte del flujo de trabajo [git flow](https://nvie.com/posts/a-succes
 Prueba a descargar un repositorio alojado en Github usando `git` para crear una copia local del repositorio en tu PC
 
 ```console
-MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/red-panda-ci/red-panda-ci-symfony.git
+MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/sergioortegagomez/red-panda-ci-symfony
 Cloning into 'red-panda-ci-symfony'...
 remote: Counting objects: 220, done.
 remote: Compressing objects: 100% (8/8), done.

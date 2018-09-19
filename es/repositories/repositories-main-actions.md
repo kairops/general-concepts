@@ -15,7 +15,7 @@ Sirve para descargar en el disco duro de nuestro PC el repositorio alojado remot
 Ejemplo: 
 
 ```console
-MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/red-panda-ci/red-panda-ci-symfony
+MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
 Cloning into 'red-panda-ci-symfony'...
 remote: Counting objects: 220, done.
 remote: Compressing objects: 100% (8/8), done.
@@ -92,5 +92,104 @@ Ejemplo:
 `git pull origin master`
 
 ## Test lab
+
+Emularemos el comportamiento de un equipo de desarrollo formado por dos personas. Cada miembro de nuestro equipo:
+
+- Descargará el repositorio desde el servidor central a una carpeta de equipo local
+- Hará un cambio en un archivoº
+- Subirá sus cambios al repositorio
+
+Nos valdremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear un usuario en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. El resultado tendría que parecerse a esto 
+
+https://github.com/pedroamador/red-panda-ci-symfony
+
+## Descarga del repositorio
+
+*Desarrollador 1*
+
+```console
+MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ mkdir -p testlab/dev1
+MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd testlab/dev1/
+MacBook-Pro-de-Pedro-2:dev1 pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
+Cloning into 'red-panda-ci-symfony'...
+remote: Counting objects: 225, done.
+remote: Total 225 (delta 0), reused 0 (delta 0), pack-reused 225
+Receiving objects: 100% (225/225), 47.71 KiB | 372.00 KiB/s, done.
+Resolving deltas: 100% (70/70), done.
+```
+
+*Desarrollador 2*
+
+```console
+MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ mkdir -p testlab/dev2
+MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd testlab/dev2/
+MacBook-Pro-de-Pedro-2:dev2 pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
+Cloning into 'red-panda-ci-symfony'...
+remote: Counting objects: 225, done.
+remote: Total 225 (delta 0), reused 0 (delta 0), pack-reused 225
+Receiving objects: 100% (225/225), 47.71 KiB | 372.00 KiB/s, done.
+Resolving deltas: 100% (70/70), done.
+```
+
+_NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador de usuario personal de Github_
+
+En este primer paso lo que `git` ha hecho por nosotros ha sido:
+
+- Conectar con el servidor central, en este caso Github
+- Crear la carpeta "red-panda-ci-symfony" en nuestro disco duro
+- Descargar el código fuente del proyecto y guardarlo en la carpeta recién creada
+- Enlazar nuestra carpeta local con el repositorio remoto
+
+## Realizar cambios en archivos locales
+
+*Desarrollador 1*
+
+```console
+MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd ~/testlab/dev1
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ cat README.md 
+# red-panda-ci-symfony
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ echo -e "\nCambios hechos por el usuario 1\n===============================" >> README.md 
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git diff
+diff --git a/README.md b/README.md
+index 3c81f03..377e356 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,4 @@
+ # red-panda-ci-symfony
++
++Cambios hechos por el usuario 1
++===============================
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git add README.md
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git commit -m "Mis cambios"
+[master 6f608d1] Mis cambios
+ 1 file changed, 3 insertions(+)
+MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 984 bytes | 984.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pedroamador/red-panda-ci-symfony
+   f82069f..6f608d1  master -> master
+```
+
+Hagamos un repaso de lo sucedido:
+
+- Hemos modificado el archivo README.md
+- Hemos comprobado con `git diff` que efectivamente hicimos modificaciones
+- Hemos confirmado nuestros cambios en la copia local con `git commit ... `
+- Hemos subido los cambios al servidor remoto con `git push`
+
+*Desarrollador 2*
 
 TBD
