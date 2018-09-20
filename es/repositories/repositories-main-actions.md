@@ -1,85 +1,56 @@
 # Repositorios: Acciones principales
 
-- Explicaremos las principales acciones o comandos de `git`. Vamos a trabajar utilizando línea de comandos de sistema.
+- Explicaremos las principales acciones o comandos de `git`. Vamos a trabajar utilizando el intérprete de comandos de sistema.
 - Lejos de ser una guía completa, la explicación se corresponde a un uso básico de la herramienta `git` y la utilizaremos de referencia para esta documentación.
 
 ## clone
 
 Sirve para descargar en el disco duro de nuestro PC el repositorio alojado remotamente en Github, Bitbucket o Gitlab. Esta acción se ejecuta una única vez.
 
-`git` inicializa el repositorio y "se trae" toda la información desde el servidor remoto: commits, ramas y tags. La copia local del repositorio (lo que nos acabamos de descargar) se queda enlazada:
+`git` inicializa el repositorio y "se trae" toda la información existente en el servidor remoto: commits, ramas y tags. La copia local del repositorio (lo que nos acabamos de descargar) se queda enlazada:
 
-- Al repositorio remoto, de tal forma que podemos subir nuestros cambios o commits mediante un `push` y descargar los cambios nuevos de repositorio remoto mediante `pull` o `fetch`.
-- A una carpeta de nuestro disco duro, donde podemos añadir conjuntos de cambios al repositorio con `commit`, trabajar con ramas con `checkout`. Se creará un directorio ".git" dentro de la carpeta donde se descargó el repositorio, que contiene toda la información que `git` maneja acerca del repositorio, pof ejemplo la configuración en el archivo ".git/config".
+- Al repositorio remoto, de tal forma que podemos subir nuestros cambios o commits mediante un `push` y descargar los nuevos cambios del repositorio remoto mediante `pull` o `fetch`.
+- A la carpeta de nuestro disco duro que contiene el repositorio, desde donde podemos añadir conjuntos de cambios al repositorio con `commit`, trabajar con ramas usando `checkout`. En el momento de hacer el `clone` se crea un directorio ".git" dentro de la misma carpeta del repositorio, que contiene toda la información que `git` maneja, por ejemplo la configuración en el archivo ".git/config".
 
-Ejemplo: 
+Ejemplo:
 
-```console
-MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
-Cloning into 'red-panda-ci-symfony'...
-remote: Counting objects: 220, done.
-remote: Compressing objects: 100% (8/8), done.
-remote: Total 220 (delta 2), reused 5 (delta 1), pack-reused 211
-Receiving objects: 100% (220/220), 43.77 KiB | 244.00 KiB/s, done.
-Resolving deltas: 100% (75/75), done.
-MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ ls -l
-total 0
-drwxr-xr-x  17 pedro.rodriguez  staff  544 Sep 19 07:20 red-panda-ci-symfony
-MacBook-Pro-de-Pedro-2:testlab pedro.rodriguez$ cd red-panda-ci-symfony/
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git status 
-On branch master
-Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ cat .git/config 
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-	ignorecase = true
-	precomposeunicode = true
-[remote "origin"]
-	url = https://github.com/red-panda-ci/red-panda-ci-symfony
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
-```
-
-El `clone` nos deja situados en la rama principal del repositorio, en este caso `master`. Veremos detalles acerca de ramas más adelante.
+- `git clone https://github.com/pedroamador/red-panda-ci-symfony` // Se descarga el repositorio indicado en nuestro disco duro local
 
 ## add / rm
 
-En nuestro día a día vamos a modificar, añadir o borrar archivos de código fuente de nuestro repositorio. Tal y como hemos dicho antes, cuando descargamos el repositorio por primera vez mediante el `clone`, `git` deja el repositorio unido a un directorio local ".git".
+En nuestro día a día vamos añadir, modificar o borrar archivos de código fuente de nuestro repositorio. Tal y como hemos dicho antes, cuando descargamos el repositorio por primera vez mediante el `clone`, `git` se queda el repositorio unido a un directorio local ".git".
 
 `git` es consciente de todas esas modificaciones. 
 
-- Utilizando `git add` preparamos nuestros cambios.
+- Utilizando `git add` preparamos nuestros cambios. Se preparan tanto los archivos nuevos como los que hemos modificado.
 - Mediante `git rm` informamos a `git` que estamos eliminando un archivo de nuestro directorio de trabajo.
 
 En ambos casos, los cambios quedan preparados para incorporar al repositorio mediante un `commit` posterior.
+
+Eemplos:
+
+- `git add file_dev1.txt` // Preparamos un fichero para añadir a nuestra copia local del repositorio
+- `git add -A` // Preparamos para añadir al repositorio todos los cambios que hemos hecho
 
 ## commit
 
 Tiene dos significados:
 
-- Referido a la acción o comando de `git` que añade un conjunto de cambios a nuestro repositorio local.
-- Referido al propio "conjunto de cambios" de nuestro repositorio.
+- Como acción o comando de `git` se utiliza para añadir un conjunto de cambios a nuestro repositorio local.
+- Como entidad, referido a uno de los múltiples "conjuntos de cambios" de nuestro repositorio.
 
-Ejemplo:
+Ejemplos:
 
-`git commit -m "Modificaciones en la API"` // Añadimos todos los cambios que tenemos preparados a nuestra copia local identificados son el mensaje "Modificaciones en la API"
+- `git commit -m "Modificaciones en la API"` // Añadimos todos los cambios que tenemos preparados a nuestra copia local identificados son el mensaje "Modificaciones en la API"
+- `git log --oneline` // Vemos un listado-resumen con todos los `commits` (conjuntos de cambios) de la rama en la que estamos situados.
 
 ## push
 
-Este comando envía todos los `commits` (conjuntos de cambios) que hemos realizado en nuestra copia local hacia el servidor remoto.
+Este comando envía todos los `commits` que hemos realizado en nuestra copia local del repositorio y que están pendientes de enviar hacia el servidor remoto.
 
 Ejemplo:
 
-`git push origin master` 
-
-Se trata de la mejor forma de asegurar que nuestras modificaciones al proyecto están a buen recaudo.
+- `git push origin master`  // Subimos o "empujamos" nuestros cambios hacia el servidor remoto.
 
 ## pull
 
@@ -89,107 +60,75 @@ Es posible que las modificaciones deban mezclarse (`merge`) con el código en el
 
 Ejemplo:
 
-`git pull origin master`
+- `git pull origin master` // Se descarga o "tira de" las novedades que tiene el servidor remoto.
 
 ## Test lab
 
-Emularemos el comportamiento de un equipo de desarrollo formado por dos personas. Cada miembro de nuestro equipo:
+Haremos lo siguiente:
 
-- Descargará el repositorio desde el servidor central a una carpeta de equipo local
-- Hará un cambio en un archivoº
-- Subirá sus cambios al repositorio
+- Descargar el repositorio desde el servidor remoto a una carpeta local de nuestro equipo
+- Realizar cambios en uno de los archivos
+- Confirmar esos cambios en nuestra copia local del repositorio
+- Añadir un archivo nuevo al repositorio
+- Confirmar de nuevo los cambios
+- Subir ambos commits al servidor remoto
 
-Nos valdremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear un usuario en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. El resultado tendría que parecerse a esto 
+Nos serviremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear un usuario en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. Como resultado deberíamos tener algo como esto 
 
 https://github.com/pedroamador/red-panda-ci-symfony
 
-## Descarga del repositorio
+_NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador del usuario personal de cada cual Github_
 
-*Desarrollador 1*
+### Descargar el repositorio
 
-```console
-MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ mkdir -p testlab/dev1
-MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd testlab/dev1/
-MacBook-Pro-de-Pedro-2:dev1 pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
-Cloning into 'red-panda-ci-symfony'...
-remote: Counting objects: 225, done.
-remote: Total 225 (delta 0), reused 0 (delta 0), pack-reused 225
-Receiving objects: 100% (225/225), 47.71 KiB | 372.00 KiB/s, done.
-Resolving deltas: 100% (70/70), done.
-```
+[![asciicast](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl.png)](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl)
 
-*Desarrollador 2*
-
-```console
-MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ mkdir -p testlab/dev2
-MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd testlab/dev2/
-MacBook-Pro-de-Pedro-2:dev2 pedro.rodriguez$ git clone https://github.com/pedroamador/red-panda-ci-symfony
-Cloning into 'red-panda-ci-symfony'...
-remote: Counting objects: 225, done.
-remote: Total 225 (delta 0), reused 0 (delta 0), pack-reused 225
-Receiving objects: 100% (225/225), 47.71 KiB | 372.00 KiB/s, done.
-Resolving deltas: 100% (70/70), done.
-```
-
-_NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador de usuario personal de Github_
+_Ver [Screencast](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl)_
 
 En este primer paso lo que `git` ha hecho por nosotros ha sido:
 
-- Conectar con el servidor central, en este caso Github
+- Conectar con el servidor remoto, en este caso Github
 - Crear la carpeta "red-panda-ci-symfony" en nuestro disco duro
 - Descargar el código fuente del proyecto y guardarlo en la carpeta recién creada
 - Enlazar nuestra carpeta local con el repositorio remoto
 
-## Realizar cambios en archivos locales
+El `clone` nos deja situados en la rama principal del repositorio, en este caso `master`. Veremos detalles acerca de ramas más adelante.
 
-*Desarrollador 1*
+### Modificar un archivo y hacer un commit
 
-```console
-MacBook-Pro-de-Pedro-2:~ pedro.rodriguez$ cd ~/testlab/dev1
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ cat README.md 
-# red-panda-ci-symfony
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ echo -e "\nCambios hechos por el usuario 1\n===============================" >> README.md 
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git diff
-diff --git a/README.md b/README.md
-index 3c81f03..377e356 100644
---- a/README.md
-+++ b/README.md
-@@ -1 +1,4 @@
- # red-panda-ci-symfony
-+
-+Cambios hechos por el usuario 1
-+===============================
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git add README.md
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git status
-On branch master
-Your branch is up to date with 'origin/master'.
+[![asciicast](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo.png)](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo)
 
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   README.md
-
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git commit -m "Mis cambios"
-[master 6f608d1] Mis cambios
- 1 file changed, 3 insertions(+)
-MacBook-Pro-de-Pedro-2:red-panda-ci-symfony pedro.rodriguez$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 984 bytes | 984.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/pedroamador/red-panda-ci-symfony
-   f82069f..6f608d1  master -> master
-```
+_Ver [Screencast](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo)_
 
 Hagamos un repaso de lo sucedido:
 
-- Hemos modificado el archivo README.md
-- Hemos comprobado con `git diff` que efectivamente hicimos modificaciones
-- Hemos confirmado nuestros cambios en la copia local con `git commit ... `
-- Hemos subido los cambios al servidor remoto con `git push`
+- Modificamos el archivo README.md
+- Comprobamos `git status` y  `git diff` que efectivamente hemos hecho modificaciones
+- Preparamos los cambios para añadir al repositorio con `git add ...`
+- Confirmamos nuestros cambios en la copia local con `git commit ...`
 
-*Desarrollador 2*
+### Añadir un archivo nuevo y hacer un commit
 
-TBD
+[![asciicast](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M.png)](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M)
+
+_Ver [Screencast](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M)_
+
+En este caso:
+
+- Creamos un archivo nuevo "new_file.txt"
+- Lo preparamos para añadir al repositorio `git add new_file.txt`
+- Confirmamos nuestros cambios en la copia local del repositorio con `git commit ... `
+
+Al final podemos ver como tenemos 2 nuevos "commits" que subir al servidor remoto
+
+### Subir cambios al servidor remoto
+
+[![asciicast](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN.png)](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN)
+
+_Ver [Screencast](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN)_
+
+En este último paso:
+
+- Subimos nuestros cambios locales al servidor remoto con `git push -u origin master`
+- Vemos como nuestros dos nuevos "commits" aparecen en el histórico con `git log --oneline`
+
