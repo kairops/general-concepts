@@ -83,8 +83,6 @@ _NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador d
 
 [![asciicast](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl.png)](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl)
 
-_Ver [Screencast](https://asciinema.org/a/naljgSDPFA9NKYwTRj8s8puUl)_
-
 En este primer paso lo que `git` ha hecho por nosotros ha sido:
 
 - Conectar con el servidor remoto, en este caso Github
@@ -98,8 +96,6 @@ El `clone` nos deja situados en la rama principal del repositorio, en este caso 
 
 [![asciicast](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo.png)](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo)
 
-_Ver [Screencast](https://asciinema.org/a/WLYkACmCjiWK50URKLXwN2ICo)_
-
 Hagamos un repaso de lo sucedido:
 
 - Modificamos el archivo README.md
@@ -110,8 +106,6 @@ Hagamos un repaso de lo sucedido:
 ### Añadir un archivo nuevo y hacer un commit
 
 [![asciicast](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M.png)](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M)
-
-_Ver [Screencast](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M)_
 
 En este caso:
 
@@ -124,8 +118,6 @@ Al final podemos ver como tenemos 2 nuevos "commits" que subir al servidor remot
 ### Subir cambios al servidor remoto
 
 [![asciicast](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN.png)](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN)
-
-_Ver [Screencast](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN)_
 
 En este último paso:
 
