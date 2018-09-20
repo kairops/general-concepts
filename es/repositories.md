@@ -4,7 +4,7 @@ Contenido:
 
 - [Introducción](#introducción)
 - [Conceptos básicos](repositories/repositories-basic-concepts.md)
-- Acciones principales: clone, commit, push, fetch, pull
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
 - Colaboración: Branching & merging, resolución de conflictos
 - Conceptos de "git flow": master, develop, feature, release, hotfix
 - Versionado: Tags
@@ -17,7 +17,7 @@ Los repositorios de código nos ayudan a mantener nuestro principal activo en un
 
 ### git
 
-Urtilizaremos [git](https://git-scm.com/) como gestor de versiones distribuido. Dispone de una aplicación que se instala en nuestro sistema, habilitando el comando "git" a nivel de consola. Podemos también utilizar alguno de los gestores gráficos, como [Source Tree](https://www.sourcetreeapp.com/). Es muy recomendable tener dominio del comando `git` y manejarlo con soltura.
+Utilizaremos [git](https://git-scm.com/) como gestor de versiones distribuido. Dispone de una aplicación que se instala en nuestro sistema, habilitando el comando "git" a nivel de consola. Podemos también utilizar alguno de los gestores gráficos, como [Source Tree](https://www.sourcetreeapp.com/). Es muy recomendable tener dominio del comando `git` y manejarlo con soltura.
 
 ### Alojamiento como servicio: Github, Gitlab y Bitbucket
 

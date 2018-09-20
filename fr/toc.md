@@ -6,7 +6,7 @@ La motivación surge de la necesidad de documentar una aplicación LAMP desarrol
 
 Esta documentación nace para quedar obsoleta: trata sobre una aplicación WEB que en 2018 puede considerarse "legacy" puesto que se comenzó a desarrollar en 2011. Obviando aquellos detalles particulares de la aplicación, comparto el resto por si le resulta útil a alguien.
 
-Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez) como base para los ejemplos y el "Test Lab". Gracias, Sergio :)
+Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI symfony](https://github.com/red-panda-ci/red-panda-ci-symfony.git) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez) como prueba de concepto. Gracias, Sergio :)
 
 ## Nociones
 
@@ -19,7 +19,7 @@ Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI s
 ## Repositorios
 
 - [Conceptos básicos](repositories/repositories-basic-concepts.md)
-- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
+- Acciones principales: clone, commit, push, fetch, pull
 - Colaboración: Branching & merging, resolución de conflictos
 - Conceptos de "git flow": master, develop, feature, release, hotfix
 - Versionado: Tags
