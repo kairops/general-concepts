@@ -1,3 +1,21 @@
+<a name="0.1.1"></a>
+## 0.1.1 (2018-09-24)
+
+
+### Add
+
+* New conflict resolution info on repositories collaboration page [ES] ([f2cef96332919ec2d7bc0471fa7b9a2a89dbfbbe](https://github.com/red-panda-ci/general-concepts/commit/f2cef96332919ec2d7bc0471fa7b9a2a89dbfbbe))
+
+### New
+
+* Add repositories collaboration page [ES] ([a08676405436f008b09f2896485799655e327e8a](https://github.com/red-panda-ci/general-concepts/commit/a08676405436f008b09f2896485799655e327e8a))
+
+### Update
+
+* Review repositories pages [ES] ([aa0bd006fec87016567fb2fb45f752eb546dd75f](https://github.com/red-panda-ci/general-concepts/commit/aa0bd006fec87016567fb2fb45f752eb546dd75f))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-09-20)
 
@@ -5,6 +23,7 @@
 ### Build
 
 * Add Jenkinsfile ([0fee1bb7a6d1075032aebfb9a45f5a80dfa7be9d](https://github.com/red-panda-ci/general-concepts/commit/0fee1bb7a6d1075032aebfb9a45f5a80dfa7be9d))
+* Update CHANGELOG.md to v0.1.0 with Red Panda JPL ([69a79f4f86dbeae00ac0bdacac1d2e02fa0a8a3e](https://github.com/red-panda-ci/general-concepts/commit/69a79f4f86dbeae00ac0bdacac1d2e02fa0a8a3e))
 
 ### Fix
 

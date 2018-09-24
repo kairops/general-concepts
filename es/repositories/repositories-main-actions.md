@@ -18,16 +18,16 @@ Ejemplo:
 
 ## add / rm
 
-En nuestro día a día vamos añadir, modificar o borrar archivos de código fuente de nuestro repositorio. Tal y como hemos dicho antes, cuando descargamos el repositorio por primera vez mediante el `clone`, `git` se queda el repositorio unido a un directorio local ".git".
+En nuestro día a día vamos añadir, modificar o borrar archivos de código fuente de la aplicación en nuestro disco duro. Tal y como hemos dicho antes, cuando descargamos el repositorio por primera vez mediante el `clone`, `git` se queda el repositorio unido a un directorio local ".git".
 
-`git` es consciente de todas esas modificaciones. 
+`git` es, de alguna forma, consciente de todas esas modificaciones. 
 
 - Utilizando `git add` preparamos nuestros cambios. Se preparan tanto los archivos nuevos como los que hemos modificado.
 - Mediante `git rm` informamos a `git` que estamos eliminando un archivo de nuestro directorio de trabajo.
 
 En ambos casos, los cambios quedan preparados para incorporar al repositorio mediante un `commit` posterior.
 
-Eemplos:
+Ejemplos:
 
 - `git add file_dev1.txt` // Preparamos un fichero para añadir a nuestra copia local del repositorio
 - `git add -A` // Preparamos para añadir al repositorio todos los cambios que hemos hecho
@@ -73,7 +73,7 @@ Haremos lo siguiente:
 - Confirmar de nuevo los cambios
 - Subir ambos commits al servidor remoto
 
-Nos serviremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear un usuario en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. Como resultado deberíamos tener algo como esto 
+Nos serviremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear una cuenta en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. Como resultado deberíamos tener algo como esto 
 
 https://github.com/pedroamador/red-panda-ci-symfony
 
@@ -123,4 +123,3 @@ En este último paso:
 
 - Subimos nuestros cambios locales al servidor remoto con `git push -u origin master`
 - Vemos como nuestros dos nuevos "commits" aparecen en el histórico con `git log --oneline`
-
