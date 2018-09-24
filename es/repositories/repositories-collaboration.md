@@ -45,6 +45,7 @@ Veremos esto con detalle en el [Test Lab](#Test-Lab).
 
 ## Resolución de conflictos
 
+TBD
 
 ## Test Lab
 
@@ -57,5 +58,39 @@ Vamos a simular el trabajo de dos desarrolladores distintos. Para cada desarroll
 - Llevar nuestros cambios a la rama perincipal de desarrollo "develop" con un `merge`
 - Subir esa mezcla de "develop" al servidor remoto
 
-Haremos las modificaciones con ambos usuarios sobre el mismo fichero en el mismo contenido, por tanto vamos a generar un conflicto que resolveremos posteriormente.
+### Modificaciones developer 1
+
+[![asciicast](https://asciinema.org/a/202866.png)](https://asciinema.org/a/202866)
+
+    Hemos clonado el repositorio en dos directorios distintos de nuestro PC (("~/testlab/dev1" y "~/testlab/dev2")) con objeto de disponer de la misma situación de partida para ambos desarrolladores "sumulados".
+
+    En este primer paso hemos creado una rama nueva "dev1" a partir de la rama "develop", hemos hecho un cambio en el archivo README.md y hemos subido nuestras modificaciones al repositorio remoto
+
+### Modificaciones developer 2
+
+[![asciicast](https://asciinema.org/a/202868.png)](https://asciinema.org/a/202868)
+
+    En una operación similar a la anterior, hemos trabajado creando una rama "dev2" a partir de la rama "develop", posteriormente hicimos cambios en esa rama "dev2" y los subimos al servidor remoto.
+
+### Mezcla de ramas, aparición y resolución de conflicto
+
+[![asciicast](https://asciinema.org/a/202870.png)](https://asciinema.org/a/202870)
+
+    El primer developer lleva sus cambios de la rama "dev1" hacia la rama "develop" del repositorio, resultando que todas las operaciones finalizan correctamente.
+
+    Cuando nos traemos las novedades del servidor remoto con `git pull` sobre la rama `develop` podemos ver cómo se descarga también la rama "dev2", que el segundo desarrollador ya había subido a remoto.
+
+[![asciicast](https://asciinema.org/a/202874.png)](https://asciinema.org/a/202874)
+
+    El segundo developer trata de llevar sus modificaciones a la rama principal de desarrollo y se encuentra con que en la rama "develop" el primer desarrollador ha modificado el fichero README.md. Por tanto, tenemos un conflicto
+
+    Para resolver el conflicto hemos utilizado Visual Studio Code. En este caso aceptamos ambos cambios en el fichero README.md, confirmamos y subimos al repositorio remoto.
+
+## Conclusión
+
+Git es una herramienta muy completa que permite colaborar con el código fuente de un proyecto en un equipo de desarrollo de prácticamente cualquier tamaño. No obstante, pueden surgir conflictos durante los `merge` que se realizan.
+
+Conocer y manejar adecuadamente `git` nos habilita a resolver conflictos de una manera sencilla.
+
+
 
