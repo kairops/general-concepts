@@ -1,3 +1,19 @@
+<a name="0.2.0"></a>
+# 0.2.0 (2018-09-25)
+
+
+### New
+
+* Add git flow repositories page [ES] ([13a3d897c092b37b8f9d089a860681a4ba4a2ff8](https://github.com/red-panda-ci/general-concepts/commit/13a3d897c092b37b8f9d089a860681a4ba4a2ff8))
+* Add tag repositories page [ES] ([5862ac667eb8d8bacb489302ea15bd1aa3a11def](https://github.com/red-panda-ci/general-concepts/commit/5862ac667eb8d8bacb489302ea15bd1aa3a11def))
+
+### Update
+
+* Clarify repositories collaboration page [ES] ([46a5ec379224c0239435f679045c788ff33af669](https://github.com/red-panda-ci/general-concepts/commit/46a5ec379224c0239435f679045c788ff33af669))
+* Finish repositories collaboration page [ES] ([a007072db9e76693a47cfbbe4d68351a639864ed](https://github.com/red-panda-ci/general-concepts/commit/a007072db9e76693a47cfbbe4d68351a639864ed))
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2018-09-24)
 
@@ -5,6 +21,10 @@
 ### Add
 
 * New conflict resolution info on repositories collaboration page [ES] ([f2cef96332919ec2d7bc0471fa7b9a2a89dbfbbe](https://github.com/red-panda-ci/general-concepts/commit/f2cef96332919ec2d7bc0471fa7b9a2a89dbfbbe))
+
+### Build
+
+* Update CHANGELOG.md to v0.1.1 with Red Panda JPL ([c5d591ed3efc757dae6eefa860754b2f34b9f6c1](https://github.com/red-panda-ci/general-concepts/commit/c5d591ed3efc757dae6eefa860754b2f34b9f6c1))
 
 ### New
 
