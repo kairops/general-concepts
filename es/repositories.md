@@ -24,3 +24,9 @@ Utilizaremos [git](https://git-scm.com/) como gestor de versiones distribuido. D
 Aunque es posible alojar los repositorios con el código fuente de nuestra aplicación en un servicio gestionado y mantenido por nosotros, gracias a los servicios de alojamiento de repositorios online como Github, Gitlab o Bitbucket la popularidad de `git` como gestor de repositorios se ha convertido en un estandar de facto.
 
 El servicio alojamiento más popular para proyectos públicos de fuente abierta (Open Source) es Github. Por otro lado, Bitbucket tiene una historia más ligada al alojamiento de repositorios privados a nivel corporativo, formando parte de la Suite de Atlassian de herramientas de productividad: JIRA, Confluence, Bitbucket, Bamboo, HipChat. Por último, GitLab es más reciente y parece que toma lo mejor de ambos.
+
+### Recursos
+
+- [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
+- [Guía básica de github para principiantes](https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c)

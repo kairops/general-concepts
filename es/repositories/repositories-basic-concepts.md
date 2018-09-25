@@ -36,9 +36,3 @@ Prueba a descargar un repositorio alojado en Github usando `git` para crear una 
 Una vez descargado el repositorio como copia local se puede echar un vistazo al código, modificar, añadir cambios y subirlos de nuevo al servidor remoto. Nuestro proyecto está de alguna forma _conectada_ tanto al servidor central en Github como a la carpeta de nuestro disco duro que contiene el proyecto.
 
 Github es un servicio de alojamiento de repositorios gratuito para proyectos públicos. Se puede utilizar para crear nuestros propios repositorios y practicar.
-
-## Recursos
-
-- [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
-https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
-- [Guía básica de github para principiantes](https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c)
