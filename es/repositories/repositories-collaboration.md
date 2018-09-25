@@ -62,29 +62,37 @@ Vamos a simular el trabajo de dos desarrolladores distintos. Para cada desarroll
 
 [![asciicast](https://asciinema.org/a/202866.png)](https://asciinema.org/a/202866)
 
-    Hemos clonado el repositorio en dos directorios distintos de nuestro PC (("~/testlab/dev1" y "~/testlab/dev2")) con objeto de disponer de la misma situación de partida para ambos desarrolladores "sumulados".
+Hemos clonado el repositorio en dos directorios distintos de nuestro PC (("~/testlab/dev1" y "~/testlab/dev2")) con objeto de disponer de la misma situación de partida para ambos desarrolladores "sumulados".
 
-    En este primer paso hemos creado una rama nueva "dev1" a partir de la rama "develop", hemos hecho un cambio en el archivo README.md y hemos subido nuestras modificaciones al repositorio remoto
+En este primer paso hemos creado una rama nueva "dev1" a partir de la rama "develop", hemos hecho un cambio en el archivo README.md y hemos subido nuestras modificaciones al repositorio remoto
 
 ### Modificaciones developer 2
 
 [![asciicast](https://asciinema.org/a/202868.png)](https://asciinema.org/a/202868)
 
-    En una operación similar a la anterior, hemos trabajado creando una rama "dev2" a partir de la rama "develop", posteriormente hicimos cambios en esa rama "dev2" y los subimos al servidor remoto.
+En una operación similar a la anterior, hemos trabajado creando una rama "dev2" a partir de la rama "develop", posteriormente hicimos cambios en esa rama "dev2" y los subimos al servidor remoto.
 
 ### Mezcla de ramas, aparición y resolución de conflicto
 
 [![asciicast](https://asciinema.org/a/202870.png)](https://asciinema.org/a/202870)
 
-    El primer developer lleva sus cambios de la rama "dev1" hacia la rama "develop" del repositorio, resultando que todas las operaciones finalizan correctamente.
+El primer developer lleva sus cambios de la rama "dev1" hacia la rama "develop" del repositorio, resultando que todas las operaciones finalizan correctamente.
 
-    Cuando nos traemos las novedades del servidor remoto con `git pull` sobre la rama `develop` podemos ver cómo se descarga también la rama "dev2", que el segundo desarrollador ya había subido a remoto.
+Cuando nos traemos las novedades del servidor remoto con `git pull` sobre la rama `develop` podemos ver cómo se descarga también la rama "dev2", que el segundo desarrollador ya había subido a remoto.
+
+---
 
 [![asciicast](https://asciinema.org/a/202874.png)](https://asciinema.org/a/202874)
 
-    El segundo developer trata de llevar sus modificaciones a la rama principal de desarrollo y se encuentra con que en la rama "develop" el primer desarrollador ha modificado el fichero README.md. Por tanto, tenemos un conflicto
+El segundo developer trata de llevar sus modificaciones a la rama principal de desarrollo y se encuentra con que en la rama "develop" el primer desarrollador ha modificado el fichero README.md. Por tanto, tenemos un conflicto
 
-    Para resolver el conflicto hemos utilizado Visual Studio Code. En este caso aceptamos ambos cambios en el fichero README.md, confirmamos y subimos al repositorio remoto.
+Para resolver el conflicto hemos utilizado Visual Studio Code. 
+
+![VSCode - Show conflicts](img/vscode-show-conflicts.png?raw=true "VSCode - Show conflicts")
+
+En este caso aceptamos ambos cambios en el fichero README.md, confirmamos y subimos al repositorio remoto.
+
+![VSCode - Resolve conflicts](img/vscode-resolve-conflicts.png?raw=true "VSCode - Resolve conflicts")
 
 ## Conclusión
 
