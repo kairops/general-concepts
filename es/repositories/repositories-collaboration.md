@@ -43,9 +43,15 @@ _Tomaremos como ejemplo la rama "pruebas" como nuestra rama de desarrollo y la r
 
 Veremos esto con detalle en el [Test Lab](#Test-Lab).
 
-## Resolución de conflictos
+## Resolución de conflictos
 
-TBD
+Tendremos un conflicto en el repositorio si estamos haciendo modificaciones en algún fichero y otro desarrollador también ha hecho modificaciones del mismo fichero y las ha subido al servidor remoto.
+
+El conflicto se pone de manifiesto cuando tratamos de hacer "pull" y traer los cambios en el repositorio remoto. `git` tiene un sistema inteligente de gestión para las moficaciones, pero hay ciertos casos en los que no puede tomar la decisión de qué hacer, y es el desarrollador quien ha de indicar cuáles son las modificaciones correctas.
+
+Lejos de suponer algo negativo, los conflictos suponen fomentar la colaboración entre desarrolladores. Hemos de pensar que el trabajo de desarrollo de software se realiza de manera individual, aislada y reflexiva. Los conflictos en código son una oportunidad para socializar ;)
+
+Veremos un caso práctico en el que se produce y resuelve un conflicto en la sección siguiente "Test Lab".
 
 ## Test Lab
 
