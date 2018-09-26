@@ -4,7 +4,7 @@ Son el elemento principal de Jemkins. Contienen una serie de pasos que definimos
 
 Podemos añadir parámetros de ejecución, asociar los jobs a repositorios alojados en Github o Gitlab, etc.
 
-Para entender mejor qué es un job, podemos utilizar un container docker con toda la configuración necesaria para que se ejecute Jenkins en nuestra máquina.
+Para entender mejor qué es un job utilizaremos un container Docker con toda la configuración necesaria para que se ejecute Jenkins en nuestra máquina. Nos serviremos del proyecto de Red Panda CI [Jenkins-dind](https://github.com/red-panda-ci/jenkins-dind)
 
 ## Test Lab
 
@@ -40,10 +40,55 @@ $ docker stop jenkins-dind
 
 ### Crear Job
 
-Nuestra instancia de Jenkins dockerizada no tiene ningún job inicialmente. Vamos a dar de alta un Job que se descargará este mismo repositorio de documnentación (!)
+Nuestra instancia de Jenkins dockerizada no tiene configurado ningún job. Vamos a crear uno que se descargará este mismo repositorio de documnentación (!)
 
 Hemos iniciado sesión, lo primero que nos informa Jenkins es que podemos crear una nueva tarea ("job") y nos ofrece un enlace
 
 ![Jenkins - Página principal](img/jenkins-user-logged.png?raw=true "Jenkins - Página principal")
 
-[TBD]
+Pulsamnos sobre el enlace "Crear una nueva tarea". En la siguiente página ponemos "prueba" en la caja de texto, seleccionamos "Pipeline" como tipo de proyecto y pulsamos sobre "OK".
+
+![Jenkins - Creando job](img/jenkins-creating-job.png?raw=true "Jenkins - Creando job")
+
+Pasamos a la página de configuración del Job, vamos a la sección "Pipeline" de la parte inferior y ponemos el siguiente código.
+
+```groovy
+pipeline {
+    agent any
+
+    stages {
+        stage('Inicio') {
+            steps  {
+                echo "Inicio"
+            }
+        }
+        stage('Clonar fuentes') {
+            steps  {
+                git url: 'https://github.com/red-panda-ci/general-concepts.git'
+            }
+        }
+        stage('Mostrar README.md') {
+            steps  {
+                sh "cat README.md"
+            }
+        }
+        stage('Limpiar workspace') {
+            steps  {
+                deleteDir()
+            }
+        }
+    }
+}
+```
+
+Dejamos el resto como está y pulsamos sobre "Guardar".
+
+![Jenkins - Configurando job](img/jenkins-configuring-job.png?raw=true "Jenkins - Configurando job")
+
+Pulsando sobre "Guardar" nuestro job de Jenkins estará listo.
+
+![Jenkins - Job listo](img/jenkins-job-ready.png?raw=true "Jenkins - Job listo")
+
+La sintaxis del job es "Jenkins Declarative Pipeline", un DSL construido sobre groovy. Se pueden apreciar distintos stages (etapas), steps (pasos), algunas directivas como "agent" y algunas instrucciones como "sh". Aunque no tengamos dominio sobre código groovy o sobre "Declarative Pipeline", se puede intuir fácilmente lo que hace el job.
+
+En la página sobre [Builds](jenkins-builds.md) veremos ejemplos de ejecución del job.

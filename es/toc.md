@@ -34,7 +34,7 @@ Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI s
 
 ## Uso básico de Jenkins
 
-- Jobs
+- [Jobs](jenkins/jenkins-jobs.md)
 - Builds
 - Hooks
 

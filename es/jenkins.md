@@ -4,8 +4,8 @@ Contenido:
 
 - [Introducción](#introducción)
 - [Jobs](jenkins/jenkins-jobs.md)
-- [Builds](jenkins/jenkins-builds.md)
-- [Hooks](jenkins/jenkins-hooks.md)
+- Builds
+- Hooks
 
 ## Introducción
 
