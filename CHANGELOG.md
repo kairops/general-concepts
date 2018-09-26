@@ -1,6 +1,30 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2018-09-26)
+
+
+### Fix
+
+* Replace blank non-ascii character with space [ES] ([4fcf56e7f962970cbaf3429ba3eb6e0c0ed3e6d3](https://github.com/red-panda-ci/general-concepts/commit/4fcf56e7f962970cbaf3429ba3eb6e0c0ed3e6d3))
+
+### New
+
+* Add Jenkins fundamentals page [ES] ([9ec2900bec5cc7ccd2aeb665a871cdbca563959b](https://github.com/red-panda-ci/general-concepts/commit/9ec2900bec5cc7ccd2aeb665a871cdbca563959b))
+* Add jenkins jobs page [ES] ([aed2627b94901d99c72b744ae8a42e893012ff24](https://github.com/red-panda-ci/general-concepts/commit/aed2627b94901d99c72b744ae8a42e893012ff24))
+
+### Update
+
+* Change place for some content on repositories [ES] ([e7bcc1be18e57c41b7ddb9510f5570c5d3c10bdb](https://github.com/red-panda-ci/general-concepts/commit/e7bcc1be18e57c41b7ddb9510f5570c5d3c10bdb))
+* Complete jenkins jobs page [ES] ([91cad3307c492657bd64e6fcaf409779f38ec0b8](https://github.com/red-panda-ci/general-concepts/commit/91cad3307c492657bd64e6fcaf409779f38ec0b8))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2018-09-25)
 
+
+### Build
+
+* Update CHANGELOG.md to v0.2.0 with Red Panda JPL ([29998796c6fb9e9791ebbf450232f8cefa8b4ac1](https://github.com/red-panda-ci/general-concepts/commit/29998796c6fb9e9791ebbf450232f8cefa8b4ac1))
 
 ### New
 
