@@ -4,7 +4,7 @@ Contenido:
 
 - [Introducción](../repositories.md)
 - [Conceptos básicos](repositories-basic-concepts.md)
-- **Acciones principales**
+- **Acciones principales: clone, add / rm, commit, push, pull**
 - [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
 - [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
 - [Versionado](repositories-tags.md): Tags

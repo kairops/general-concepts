@@ -3,11 +3,11 @@
 Contenido:
 
 - [Introducción](../repositories.md)
-- [Conceptos básicos](repositories-basic-concepts.md)
-- [Acciones principales](repositories-main-actions.md)
-- [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
-- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
-- **Versionado**
+- [Conceptos básicos](repositories/repositories-basic-concepts.md)
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
+- [Colaboración](repositories/repositories-collaboration.md): Branching & merging, resolución de conflictos
+- [Conceptos de "git flow"](repositories/repositories-git-flow.md): master, develop, feature, release, hotfix
+- **Versionado: Tags**
 
 El correcto etiquetado de versiones es fundamental para identificar las sucesivas releases de nuestra aplicación que se van liberando.
 

@@ -3,11 +3,11 @@
 Contenido:
 
 - [Introducción](../repositories.md)
-- [Conceptos básicos](repositories-basic-concepts.md)
-- [Acciones principales](repositories-main-actions.md)
-- **Colaboración**
-- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
-- [Versionado](repositories-tags.md): Tags
+- [Conceptos básicos](repositories/repositories-basic-concepts.md)
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
+- **Colaboración: Branching & merging, resolución de conflictos**
+- [Conceptos de "git flow"](repositories/repositories-git-flow.md): master, develop, feature, release, hotfix
+- [Versionado](repositories/repositories-tags.md): Tags
 
 El uso de `git` es se ha vuelto prácticamente obligatorio si estamos hablando de gestión de código fuente en desarrollo de software. Si bien tiene sentido utilizar `git` cuando trabajamos solos, es al trabajar con más gente cuando `git` nos proporciona mecanismos avanzados de colaboración.
 

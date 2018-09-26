@@ -33,4 +33,4 @@ https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
  
 ---
 
-Siguiente: [Conceptos básicos](repositories-basic-concepts.md) - Ir a la [Página principal](toc.md)
+Siguiente: [Conceptos básicos](repositories/repositories-basic-concepts.md) - Ir a la [Página principal](toc.md)

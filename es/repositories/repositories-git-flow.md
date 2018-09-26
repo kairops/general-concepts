@@ -3,11 +3,11 @@
 Contenido:
 
 - [Introducción](../repositories.md)
-- [Conceptos básicos](repositories-basic-concepts.md)
-- [Acciones principales](repositories-main-actions.md)
-- [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
-- **Conceptos de "git flow"**
-- [Versionado](repositories-tags.md): Tags
+- [Conceptos básicos](repositories/repositories-basic-concepts.md)
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
+- [Colaboración](repositories/repositories-collaboration.md): Branching & merging, resolución de conflictos
+- **Conceptos de "git flow": master, develop, feature, release, hotfix**
+- [Versionado](repositories/repositories-tags.md): Tags
 
 Existen [diversos](https://dzone.com/articles/workflows-git) [tipos](https://buddy.works/blog/5-types-of-git-workflows) de flujo de trabajo asociados a `git`, que pueden ajustarse a distintas necesidades o distintos usos y costumbres de los equipos de desarrollo. 
 
