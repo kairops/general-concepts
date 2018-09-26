@@ -1,4 +1,4 @@
-# Jenkins: Jobs
+# Jenkins: Jobs
 
 Son el elemento principal de Jemkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera. 
 
