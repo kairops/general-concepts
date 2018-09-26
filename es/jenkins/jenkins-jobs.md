@@ -1,5 +1,12 @@
 # Jenkins: Jobs
 
+Contenido:
+
+- [Introducción](../jenkins.md)
+- **Jobs**
+- [Builds](jenkins-builds.md)
+- [Hooks](jenkins-hooks.md)
+
 Son el elemento principal de Jemkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera. 
 
 Podemos añadir parámetros de ejecución, asociar los jobs a repositorios alojados en Github o Gitlab, etc.
@@ -92,3 +99,7 @@ Pulsando sobre "Guardar" nuestro job de Jenkins estará listo.
 La sintaxis del job es "Jenkins Declarative Pipeline", un DSL construido sobre groovy. Se pueden apreciar distintos stages (etapas), steps (pasos), algunas directivas como "agent" y algunas instrucciones como "sh". Aunque no tengamos dominio sobre código groovy o sobre "Declarative Pipeline", se puede intuir fácilmente lo que hace el job.
 
 En la página sobre [Builds](jenkins-builds.md) veremos ejemplos de ejecución del job.
+
+---
+
+Siguiente: [Builds](jenkins-builds.md) - Ir a la [Página principal](../toc.md)

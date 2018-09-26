@@ -1,5 +1,14 @@
 # Repositorios: Conceptos básicos
 
+Contenido:
+
+- [Introducción](../repositories.md)
+- **Conceptos básicos**
+- [Acciones principales](repositories-main-actions.md)
+- [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
+- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
+- [Versionado](repositories-tags.md): Tags
+
 Existen multitud de tutoriales y guías acerca del uso de git. Uno de los mejores recursos es el libro tutorial [pro-git](https://git-scm.com/book/es/v2). La información que ahí figura es realmente extensa y completa.
 
 Podemos ver un repositorio `git` como una suerte de base de datos de código fuente donde almacenamos cada uno de los cambios que vamos desarrollando en nuestra aplicación. Los cambios se guardan en dicha base de datos (**commit**) con un identificador único en forma de _hash_ que sirve para localizar ese conjunto de cambios y diferenciarlo del resto. Cada uno de estos conjuntos de cambios lleva asociada su descripción en forma de mensaje.
@@ -36,3 +45,7 @@ Prueba a descargar un repositorio alojado en Github usando `git` para crear una 
 Una vez descargado el repositorio como copia local se puede echar un vistazo al código, modificar, añadir cambios y subirlos de nuevo al servidor remoto. Nuestro proyecto está de alguna forma _conectada_ tanto al servidor central en Github como a la carpeta de nuestro disco duro que contiene el proyecto.
 
 Github es un servicio de alojamiento de repositorios gratuito para proyectos públicos. Se puede utilizar para crear nuestros propios repositorios y practicar.
+
+---
+
+Siguiente: [Acciones principales](repositories-main-actions.md) - Ir a la [Página principal](../toc.md)

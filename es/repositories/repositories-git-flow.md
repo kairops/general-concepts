@@ -1,5 +1,14 @@
 # Repositorios: Git Flow
 
+Contenido:
+
+- [Introducción](../repositories.md)
+- [Conceptos básicos](repositories/repositories-basic-concepts.md)
+- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
+- [Colaboración](repositories/repositories-collaboration.md): Branching & merging, resolución de conflictos
+- **Conceptos de "git flow": master, develop, feature, release, hotfix**
+- [Versionado](repositories/repositories-tags.md): Tags
+
 Existen [diversos](https://dzone.com/articles/workflows-git) [tipos](https://buddy.works/blog/5-types-of-git-workflows) de flujo de trabajo asociados a `git`, que pueden ajustarse a distintas necesidades o distintos usos y costumbres de los equipos de desarrollo. 
 
 Utilizaremos [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/?) para nuestros ejemplos y "Test Labs". En la elaoración de esta guía se ha utiloizado "Git Flow" jutno con fork / pull request para elaborar el versionado y el [CHANGELOG.md](/CHANGELOG.md) del proyecto.
@@ -33,3 +42,7 @@ En realidad, el uso de `git flow` supone un atajo al uso de comandos de `git`. C
 - Hacemos un cambio en el archivo "README.md" y subimos los cambios al servidor remoto, todo en nuestra _feature branch_
 - Llevamos las modificaciones desde nuestra feature branch hacia la rama principal de desarrollo "develop".
 - Finalizamos subiendo nuestro código al servidor remoto y borrando la rama "feature/ejemplo" del servidor remoto.
+
+---
+
+Siguiente: [Versionado](repositories-tags.md) - Ir a la [Página principal](../toc.md)
