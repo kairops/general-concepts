@@ -27,7 +27,7 @@ Ejemnplos:
 
 En cada cambio de rama `git` actualiza los ficheros de nuestra copia de trabajo para dejarlos tal y como se encuentran en esa rama. Si un fichero existe en la rama "pruebas", no existe en la rama "develop" y hacemos un cambio de "pruebas" a "develop", el fichero desaparece. Al volver de la rama "develop" a la rama "pruebas", el fichero vuelve a aparecer.
 
-## Mezclas
+## Mezclas
 
 Es recomendable hacer nuestras modificaciones al código fuente en nuestra propia rama. Cuando hemos finalizado los cambios, nos llevamos esas modificaciones y toda su historia a la rama principal de desarrollo mediante una mezcla (**merge**).
 
