@@ -1,13 +1,16 @@
-<a name="0.2.1"></a>
-## 0.2.1 (2018-09-26)
+<a name="0.3.0"></a>
+# 0.3.0 (2018-09-26)
 
 
 ### Fix
 
+* Put the right navigation links target [ES] ([0dfad3f9c328e8342cafa0a2f4b4c0651a632f70](https://github.com/red-panda-ci/general-concepts/commit/0dfad3f9c328e8342cafa0a2f4b4c0651a632f70))
 * Replace blank non-ascii character with space [ES] ([4fcf56e7f962970cbaf3429ba3eb6e0c0ed3e6d3](https://github.com/red-panda-ci/general-concepts/commit/4fcf56e7f962970cbaf3429ba3eb6e0c0ed3e6d3))
 
 ### New
 
+* Add doc navigation links [ES] ([790ecbe672c2f71d362485aedaec38ebe9cd89ee](https://github.com/red-panda-ci/general-concepts/commit/790ecbe672c2f71d362485aedaec38ebe9cd89ee))
+* Add jenkins builds details [ES] ([d31bef4d8b7f4f5ceec7f40d724c1b20f82fa685](https://github.com/red-panda-ci/general-concepts/commit/d31bef4d8b7f4f5ceec7f40d724c1b20f82fa685))
 * Add Jenkins fundamentals page [ES] ([9ec2900bec5cc7ccd2aeb665a871cdbca563959b](https://github.com/red-panda-ci/general-concepts/commit/9ec2900bec5cc7ccd2aeb665a871cdbca563959b))
 * Add jenkins jobs page [ES] ([aed2627b94901d99c72b744ae8a42e893012ff24](https://github.com/red-panda-ci/general-concepts/commit/aed2627b94901d99c72b744ae8a42e893012ff24))
 
