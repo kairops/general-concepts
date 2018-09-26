@@ -2,7 +2,7 @@
 
 Contenido:
 
-- [Introducción](#introducción)
+- **Introducción**
 - [Conceptos básicos](repositories/repositories-basic-concepts.md)
 - [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
 - [Colaboración](repositories/repositories-collaboration.md): Branching & merging, resolución de conflictos
@@ -30,3 +30,7 @@ El servicio alojamiento más popular para proyectos públicos de fuente abierta 
 - [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
 https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
 - [Guía básica de github para principiantes](https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c)
+ 
+---
+
+Siguiente: [Conceptos básicos](repositories/repositories-basic-concepts.md) - Ir a la [Página principal](toc.md)

@@ -1,7 +1,17 @@
 # Repositorios: Acciones principales
 
-- Explicaremos las principales acciones o comandos de `git`. Vamos a trabajar utilizando el intérprete de comandos de sistema.
-- Lejos de ser una guía completa, la explicación se corresponde a un uso básico de la herramienta `git` y la utilizaremos de referencia para esta documentación.
+Contenido:
+
+- [Introducción](../repositories.md)
+- [Conceptos básicos](repositories-basic-concepts.md)
+- **Acciones principales: clone, add / rm, commit, push, pull**
+- [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
+- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
+- [Versionado](repositories-tags.md): Tags
+
+Explicaremos las principales acciones o comandos de `git`. Vamos a trabajar utilizando el intérprete de comandos de sistema.
+
+Lejos de ser una guía completa, la explicación se corresponde a un uso básico de la herramienta `git` y la utilizaremos de referencia para esta documentación.
 
 ## clone
 
@@ -123,3 +133,7 @@ En este último paso:
 
 - Subimos nuestros cambios locales al servidor remoto con `git push -u origin master`
 - Vemos como nuestros dos nuevos "commits" aparecen en el histórico con `git log --oneline`
+
+---
+
+Siguiente: [Colaboración](repositories-collaboration.md) - Volver a [Página principal](../toc.md) |
