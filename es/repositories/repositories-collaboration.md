@@ -1,5 +1,14 @@
 # Repositorios: Colaboración
 
+Contenido:
+
+- [Introducción](../repositories.md)
+- [Conceptos básicos](repositories-basic-concepts.md)
+- [Acciones principales](repositories-main-actions.md)
+- **Colaboración**
+- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
+- [Versionado](repositories-tags.md): Tags
+
 El uso de `git` es se ha vuelto prácticamente obligatorio si estamos hablando de gestión de código fuente en desarrollo de software. Si bien tiene sentido utilizar `git` cuando trabajamos solos, es al trabajar con más gente cuando `git` nos proporciona mecanismos avanzados de colaboración.
 
 Hablemos sobre ramas, mezclas y resolución de conflictos
@@ -106,5 +115,6 @@ Git es una herramienta muy completa que permite colaborar con el código fuente 
 
 Conocer y manejar adecuadamente `git` nos habilita a resolver conflictos de una manera sencilla.
 
+---
 
-
+Siguiente: [Conceptos de "git flow"](repositories-git-flow.md) - Ir a la [Página principal](../toc.md)

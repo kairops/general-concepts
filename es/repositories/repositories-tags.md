@@ -1,5 +1,14 @@
 # Repositorios: Tags
 
+Contenido:
+
+- [Introducción](../repositories.md)
+- [Conceptos básicos](repositories-basic-concepts.md)
+- [Acciones principales](repositories-main-actions.md)
+- [Colaboración](repositories-collaboration.md): Branching & merging, resolución de conflictos
+- [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
+- **Versionado**
+
 El correcto etiquetado de versiones es fundamental para identificar las sucesivas releases de nuestra aplicación que se van liberando.
 
 En terminología `git` un tag no es más que una etiqueta sobre un commit concreto, a la que ponemos un nombre y opcionalmente una descripción.
@@ -18,3 +27,7 @@ Ejemplos:
 - `git tag push origin :refs/tags/v0.1.0` // Borramos el tag "v0.1.0" del servidor remoto
 - `git tag` // Muestra todos los tags de nuestro repositorio
 - `git tag -m1` // Muestra todos los tags de nuestro repositorio junto con la primera línea del mensaje asociado a cada tag
+
+---
+
+Ir a la [Página principal](../toc.md)

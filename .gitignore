@@ -1,0 +1,10 @@
+# macos
+.DS_Store
+
+# linux
+*~
+.*~
+
+# git
+!.gitignore
+!.gitkeep
