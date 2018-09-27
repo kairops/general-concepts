@@ -37,6 +37,10 @@ Dentro de estos flujos de tareas que hemos definido se pueden implementar automa
 
 Como conclusión: Es posible incorporar procesos de QA a cualquier proyecto que esté ya en marcha, con el enfoque más adecuado para aumentar la percepción de Calidad de los entregables, sin que sea visto por los involucrados en el proyecto como algo que supone retraso en las entregas.
 
+## Recursos adicionales
+
+- [Calidad e Integracion Continua. Una introducción](http://www.carlescliment.com/publications/calidad-e-integracion-continua-enero-2012) _by Carles Climent Granell_
+
 ---
 
 Ir a la [Página principal](toc.md)
