@@ -8,51 +8,12 @@ Esta documentación nace para quedar obsoleta: trata sobre una aplicación WEB q
 
 Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez) como base para los ejemplos y el "Test Lab". Gracias, Sergio :)
 
-## Nociones
+## Secciones
 
 - [Entornos](environments.md) de ejecución
 - [Repositorios](repositories.md): git, Github / Gitlab / Bitbucket
-- [Docker](docker.md)
 - [Jenkins](jenkins.md)
+- [Docker](docker.md)
 - [Sonar](sonar.md)
-
-## Repositorios
-
-- [Conceptos básicos](repositories/repositories-basic-concepts.md)
-- [Acciones principales](repositories/repositories-main-actions.md): clone, add / rm, commit, push, pull
-- [Colaboración](repositories/repositories-collaboration.md): Branching & merging, resolución de conflictos
-- [Conceptos de "git flow"](repositories/repositories-git-flow.md): master, develop, feature, release, hotfix
-- [Versionado](repositories/repositories-tags.md): Tags
-
-## Uso básico de Docker
-
-- Imágenes
-- Containers
-- Volúmenes
-- Redes
-- Compose
-
-## Uso básico de Jenkins
-
-- [Jobs](jenkins/jenkins-jobs.md)
-- Builds
-- Hooks
-
-## Uso básico de Sonar
-
-TBD
-
-## Conceptos de QA
-
-- Calidad
-- BDD
-- Ejecución local de pruebas
-- Sonarqube
-
-## Ciclo de vida
-
-- Configuración y puesta en marcha de entorno local
-- Pipeline: Develop, Build, Test, Deploy, Release
-- Entregabilidad: CI-CD-CD
-- Etiquetas y versionado semántico
-- Changelog
+- [Calidad](qa.md)
+- [Ciclo de vida](application-lifecicle.md)
