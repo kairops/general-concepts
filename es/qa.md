@@ -36,3 +36,7 @@ Una vez hecha la entrega surge la pregunta de: ¿está todo bien? Desde QA se pu
 Dentro de estos flujos de tareas que hemos definido se pueden implementar automatizaciones, evolucionando hacia integración continua, testing continuo y entrega continua como parte de procesos de desarrollo ágil. Eso será otra historia.
 
 Como conclusión: Es posible incorporar procesos de QA a cualquier proyecto que esté ya en marcha, con el enfoque más adecuado para aumentar la percepción de Calidad de los entregables, sin que sea visto por los involucrados en el proyecto como algo que supone retraso en las entregas.
+
+---
+
+Ir a la [Página principal](toc.md)
