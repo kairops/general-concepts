@@ -1,5 +1,17 @@
 # Ciclo de vida
 
+Contenido:
+
+- [Definición](#definición)
+- [Ciclo de vida como evolución](#ciclo-de-vida-como-evolución)
+- [Ciclo de vida como adaptación](#ciclo-de-vida-como-adaptación)
+- [CI-CD-CD](#ci-cd-cd)
+- [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
+- [Entregabilidad](application-lifecicle/al-releaseability.md)
+- [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
+- Etiquetas y versionado semántico
+- Changelog
+
 ## Definición 
 
 Conjunto de actividades, técnicas, tácticas, servicios, procesos y herramientas relacionadas con la creación y explotación de una aplicación en todos sus aspectos. Sabemos que el _desarrollo_ supone la actividad principal, pero no es la única actividad. Cuanto más entidad tiene el proyecto software en el que estamos inmersos, más personas trabajan en él y más importancia tiene el concepto _Ciclo de Vida_.
@@ -41,12 +53,6 @@ Gracias a estos automatismos, si tenemnos un grado alto de _Entregabilidad_ pode
 
 Mediante prácticas de _Integración Continua_ mezclamos de manera frecuente nuestros cambios en la rama principal de desarrollo para garantizar que lo que estamos desarrollando es sostenible en la aplicación, que nada deja de funcionar. Esta garantía se certifica con la ejecución de _pruebas_ de diverso tipo: unitarias, funcionales, de integración, de aceptación, de seguridad, de rendimiento, etc.
 
-## Modelo de ejemplo
+---
 
-Trataremos un _Ciclo de Vida_ "tipo" definiendo:
-
-- Configuración y puesta en marcha del [entorno local](application-lifecicle/al-local-environment.md) (ver [entornos](environments.md))
-- [Entregabilidad]((application-lifecicle/al-releaseability.md))
-- [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
-- Etiquetas y versionado semántico
-- Changelog
+Siguiente: [Configuración del entorno local](application-lifecicle/al-local-environment.md) - Ir a la [Página principal](../toc.md)

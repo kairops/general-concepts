@@ -1,5 +1,17 @@
 # Ciclo de vida: Pipeline
 
+Contenido:
+
+- [Definición](#definición)
+- [Ciclo de vida como evolución](#ciclo-de-vida-como-evolución)
+- [Ciclo de vida como adaptación](#ciclo-de-vida-como-adaptación)
+- [CI-CD-CD](#ci-cd-cd)
+- [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
+- [Entregabilidad](application-lifecicle/al-releaseability.md)
+- **Pipeline**
+- Etiquetas y versionado semántico
+- Changelog
+
 Es el proceso definido para gestionar todas las actividades que suceden desde que cambiamos una línea de cóodigo en nuestra aplicación hasta que esos cambios se despliegan en un entorno de producción. 
 
 ## Ramas
@@ -9,3 +21,7 @@ Desde el punto de vista del repositorio de código y sus ramas, los cambios que 
 Un escenario típico es avanzar el desarrollo en "feature branches" (feature/*) y realizar peticiones de integración (pull requests / merge requests) hacia la rama principal de desarrollo, generalmente denominada "develop". En este caso la rama "develop" no debe ser una rama de trabajo, sino una rama de integración y promoción de cambios hacia otras ramas, generalmente "master".
 
 (TBR) (TBC)
+
+---
+
+Siguiente: Etiquetas y versionado semántio - Ir a la [Página principal](../toc.md)
