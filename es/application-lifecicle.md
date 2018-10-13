@@ -9,10 +9,10 @@ Contenido:
 - [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
 - [Entregabilidad](application-lifecicle/al-releaseability.md)
 - [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
-- Etiquetas y versionado semántico
-- Changelog
+- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
+- [Changelog](application-lifecicle/al-changelog.md)
 
-## Definición 
+## Definición
 
 Conjunto de actividades, técnicas, tácticas, servicios, procesos y herramientas relacionadas con la creación y explotación de una aplicación en todos sus aspectos. Sabemos que el _desarrollo_ supone la actividad principal, pero no es la única actividad. Cuanto más entidad tiene el proyecto software en el que estamos inmersos, más personas trabajan en él y más importancia tiene el concepto _Ciclo de Vida_.
 
@@ -55,4 +55,4 @@ Por último, gracias a los automatismos, si hemos ejercitado bien la _Entregabil
 
 ---
 
-Siguiente: [Configuración del entorno local](application-lifecicle/al-local-environment.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Entregabilidad](application-lifecicle/al-local-environment.md) - Ir a la [Página principal](../toc.md)

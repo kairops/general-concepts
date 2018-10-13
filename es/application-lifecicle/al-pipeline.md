@@ -9,8 +9,8 @@ Contenido:
 - [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
 - [Entregabilidad](application-lifecicle/al-releaseability.md)
 - **Pipeline**
-- Etiquetas y versionado semántico
-- Changelog
+- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
+- [Changelog](application-lifecicle/al-changelog.md)
 
 Es el proceso definido para gestionar todas las actividades que suceden desde que cambiamos una línea de cóodigo en nuestra aplicación hasta que esos cambios se despliegan en un entorno de producción. 
 
@@ -24,4 +24,4 @@ Un escenario típico es avanzar el desarrollo en "feature branches" (feature/*) 
 
 ---
 
-Siguiente: Etiquetas y versionado semántio - Ir a la [Página principal](../toc.md)
+Siguiente: [Etiquetas y versionado semántio](application-lifecicle/al-semver.md) - Ir a la [Página principal](../toc.md)

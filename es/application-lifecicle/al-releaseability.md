@@ -6,11 +6,10 @@ Contenido:
 - [Ciclo de vida como evolución](../application-lifecicle##ciclo-de-vida-como-evolución)
 - [Ciclo de vida como adaptación](../application-lifecicle##ciclo-de-vida-como-adaptación)
 - [CI-CD-CD](../application-lifecicle##ci-cd-cd)
-- [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
 - **Entregabilidad**
 - [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
-- Etiquetas y versionado semántico
-- Changelog
+- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
+- [Changelog](application-lifecicle/al-changelog.md)
 
 Una actividad muy importante en cualquier aplicación es la entrega, el despliegue o la puesta en producción. Creamos software para ser entregado de alguna forma.
 
