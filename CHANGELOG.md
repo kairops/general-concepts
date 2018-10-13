@@ -1,6 +1,33 @@
+<a name="0.5.0"></a>
+# 0.5.0 (2018-10-13)
+
+
+### New
+
+* Add 'AL - Releaseability and 'AL - Pipeline' pages ([f5d5bedb5cde06ffd438f8b0b3791e5cac9c51fa](https://github.com/red-panda-ci/general-concepts/commit/f5d5bedb5cde06ffd438f8b0b3791e5cac9c51fa))
+
+### Update
+
+* Add aditional resources to QA page [ES] ([e827882e256ff5ade99cd82f8a621e449c57ed4e](https://github.com/red-panda-ci/general-concepts/commit/e827882e256ff5ade99cd82f8a621e449c57ed4e))
+* Add content and navigation section to SL pages [ES] ([f115d7c61ab8e3fa47f85d0b2344ee92aaa59b34](https://github.com/red-panda-ci/general-concepts/commit/f115d7c61ab8e3fa47f85d0b2344ee92aaa59b34))
+* Add example pipeline images to pipeline page [ES] ([19047c0cbe04082ff1a12c2b1dddd4bb92613a4d](https://github.com/red-panda-ci/general-concepts/commit/19047c0cbe04082ff1a12c2b1dddd4bb92613a4d))
+* Add pipeline example [ES] ([21720bcd3a609245a61e4c217a34480ce0337c42](https://github.com/red-panda-ci/general-concepts/commit/21720bcd3a609245a61e4c217a34480ce0337c42))
+* Remove Application Lifecicle 'tags' page [ES] ([84e66e35ce484b50501b2fead6a5174b1031bceb](https://github.com/red-panda-ci/general-concepts/commit/84e66e35ce484b50501b2fead6a5174b1031bceb))
+* Review Application Lifecicle page ([c1f38d868732eb6b73eb8bb1651be52679ff8caf](https://github.com/red-panda-ci/general-concepts/commit/c1f38d868732eb6b73eb8bb1651be52679ff8caf))
+* Review cicdcd and evolution/adaptation pages of Application Releaseability [ES] ([6a52b741220bd29b7e9d7793f95921fd95ca73bd](https://github.com/red-panda-ci/general-concepts/commit/6a52b741220bd29b7e9d7793f95921fd95ca73bd))
+* Review format of all pages [ES] ([e17d624c577e4ef26a900279427196d7b2a4a453](https://github.com/red-panda-ci/general-concepts/commit/e17d624c577e4ef26a900279427196d7b2a4a453))
+* Review of Application Lifecicle pages [ES] ([e273d1946feb8c200a0742082c84ad83fa5508f1](https://github.com/red-panda-ci/general-concepts/commit/e273d1946feb8c200a0742082c84ad83fa5508f1))
+* Review of Application Lifecicle, adding content and navigation sections to all pages [ES] ([05b345908983c7a6562df74a4b4e2902b23d1e9e](https://github.com/red-panda-ci/general-concepts/commit/05b345908983c7a6562df74a4b4e2902b23d1e9e))
+
+
+
 <a name="0.4.0"></a>
 # 0.4.0 (2018-09-27)
 
+
+### Build
+
+* Update CHANGELOG.md to v0.4.0 with Red Panda JPL ([6a6a1223f8a0d7af70c9eb50f2f8c3da86ebfe8f](https://github.com/red-panda-ci/general-concepts/commit/6a6a1223f8a0d7af70c9eb50f2f8c3da86ebfe8f))
 
 ### New
 
