@@ -2,14 +2,13 @@
 
 Contenido:
 
-- [Definición](../application-lifecicle#definición)
-- [Ciclo de vida como evolución](../application-lifecicle##ciclo-de-vida-como-evolución)
-- [Ciclo de vida como adaptación](../application-lifecicle##ciclo-de-vida-como-adaptación)
-- [CI-CD-CD](../application-lifecicle##ci-cd-cd)
+- [Introducción](../application-lifecicle.md)
+- [Ciclo de vida: Evolución y adaptación](al-evolution-and-adaptation.md)
+- [CI-CD-CD](al-cicdcd.md)
 - **Entregabilidad**
-- [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
-- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
-- [Changelog](application-lifecicle/al-changelog.md)
+- [Pipeline](al-pipeline.md): Develop, Build, Test, Deploy, Release
+- [Etiquetas y versionado semántico](al-semver.md)
+- [Changelog](al-changelog.md)
 
 Una actividad muy importante en cualquier aplicación es la entrega, el despliegue o la puesta en producción. Creamos software para ser entregado de alguna forma.
 
@@ -27,4 +26,4 @@ Haciendo iteraciones cortas y aumentando la frecuencia de entregas tendremos una
 
 ---
 
-Siguiente: [Pipeline](application-lifecicle/al-pipeline.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Pipeline](al-pipeline.md) - Ir a la [Página principal](../toc.md)

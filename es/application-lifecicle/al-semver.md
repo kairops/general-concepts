@@ -2,16 +2,14 @@
 
 Contenido:
 
-- [Definición](#definición)
-- [Ciclo de vida como evolución](#ciclo-de-vida-como-evolución)
-- [Ciclo de vida como adaptación](#ciclo-de-vida-como-adaptación)
-- [CI-CD-CD](#ci-cd-cd)
-- [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
-- [Entregabilidad](application-lifecicle/al-releaseability.md)
-- [Pipeline](application-lifecicle/al-pipeline.md): Develop, Build, Test, Deploy, Release
+- [Introducción](../application-lifecicle.md)
+- [Ciclo de vida: Evolución y adaptación](al-evolution-and-adaptation.md)
+- [CI-CD-CD](al-cicdcd.md)
+- [Entregabilidad](al-releaseability.md)
+- [Pipeline](al-pipeline.md): Develop, Build, Test, Deploy, Release
 - **Etiquetas y versionado semántico**
-- [Changelog](application-lifecicle/al-changelog.md)
+- [Changelog](al-changelog.md)
 
 ---
 
-Siguiente: [Changelog](application-lifecicle/al-changelog.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Changelog](al-changelog.md) - Ir a la [Página principal](../toc.md)

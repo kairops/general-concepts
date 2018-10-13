@@ -2,15 +2,13 @@
 
 Contenido:
 
-- [Definición](#definición)
-- [Ciclo de vida como evolución](#ciclo-de-vida-como-evolución)
-- [Ciclo de vida como adaptación](#ciclo-de-vida-como-adaptación)
-- [CI-CD-CD](#ci-cd-cd)
-- [Entorno local de desarrollo](application-lifecicle/al-local-environment.md)
-- [Entregabilidad](application-lifecicle/al-releaseability.md)
-- **Pipeline**
-- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
-- [Changelog](application-lifecicle/al-changelog.md)
+- [Introducción](../application-lifecicle.md)
+- [Ciclo de vida: Evolución y adaptación](al-evolution-and-adaptation.md)
+- [CI-CD-CD](al-cicdcd.md)
+- [Entregabilidad](al-releaseability.md)
+- **Pipeline: Develop, Build, Test, Deploy, Release**
+- [Etiquetas y versionado semántico](al-semver.md)
+- [Changelog](al-changelog.md)
 
 Es el proceso definido para gestionar todas las actividades que suceden desde que cambiamos una línea de cóodigo en nuestra aplicación hasta que esos cambios se despliegan en un entorno de producción. 
 
@@ -24,4 +22,4 @@ Un escenario típico es avanzar el desarrollo en "feature branches" (feature/*) 
 
 ---
 
-Siguiente: [Etiquetas y versionado semántio](application-lifecicle/al-semver.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Etiquetas y versionado semántio](al-semver.md) - Ir a la [Página principal](../toc.md)
