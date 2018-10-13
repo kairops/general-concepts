@@ -6,8 +6,6 @@ La motivación surge de la necesidad de documentar una aplicación LAMP desarrol
 
 Esta documentación nace para quedar obsoleta: trata sobre una aplicación WEB que en 2018 puede considerarse "legacy" puesto que se comenzó a desarrollar en 2011. Obviando aquellos detalles particulares de la aplicación, comparto el resto por si le resulta útil a alguien.
 
-Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez) como base para los ejemplos y el "Test Lab". Gracias, Sergio :)
-
 ## Secciones
 
 - [Entornos](environments.md) de ejecución
@@ -17,3 +15,8 @@ Como ayuda para elaborar este material se utilizará el proyecto [Red Panda CI s
 - [Sonar](sonar.md)
 - [Calidad](qa.md)
 - [Ciclo de vida](application-lifecicle.md)
+
+## Créditos
+
+- Como ayuda para elaborar parte de este material se utilizó el proyecto [Red Panda CI symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez), sirviendo de base para los ejemplos y el "Test Lab". Gracias, Sergio :)
+
