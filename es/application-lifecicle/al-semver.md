@@ -10,6 +10,8 @@ Contenido:
 - **Etiquetas y versionado semántico**
 - [Changelog](al-changelog.md)
 
+(TBD)
+
 ---
 
 Siguiente: [Changelog](al-changelog.md) - Ir a la [Página principal](../toc.md)
