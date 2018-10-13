@@ -7,7 +7,6 @@ Contenido:
 - [CI-CD-CD](application-lifecicle/al-cicdcd.md)
 - [Entregabilidad](application-lifecicle/al-releaseability.md)
 - [Pipeline](application-lifecicle/al-pipeline.md)
-- [Etiquetas y versionado semántico](application-lifecicle/al-semver.md)
 - [Changelog](application-lifecicle/al-changelog.md)
 
 ## Introducción

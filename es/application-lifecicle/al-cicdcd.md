@@ -7,7 +7,6 @@ Contenido:
 - **CI-CD-CD**
 - [Entregabilidad](al-releaseability.md)
 - [Pipeline](al-pipeline.md)
-- [Etiquetas y versionado semántico](al-semver.md)
 - [Changelog](al-changelog.md)
 
 Se trata de tres conceptos estrechamente relacionados con el _Ciclo de Vida_:

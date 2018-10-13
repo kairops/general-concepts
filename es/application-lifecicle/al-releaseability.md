@@ -7,7 +7,6 @@ Contenido:
 - [CI-CD-CD](al-cicdcd.md)
 - **Entregabilidad**
 - [Pipeline](al-pipeline.md)
-- [Etiquetas y versionado semántico](al-semver.md)
 - [Changelog](al-changelog.md)
 
 Una actividad muy importante en cualquier aplicación es la entrega, el despliegue o la puesta en producción. Creamos software para ser entregado de alguna forma.

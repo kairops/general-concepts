@@ -7,7 +7,6 @@ Contenido:
 - [CI-CD-CD](al-cicdcd.md)
 - [Entregabilidad](al-releaseability.md)
 - [Pipeline](al-pipeline.md): Develop, Build, Test, Deploy, Release
-- [Etiquetas y versionado semántico](al-semver.md)
 - **Changelog**
 
 (TBD)

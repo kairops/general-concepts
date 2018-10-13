@@ -7,7 +7,6 @@ Contenido:
 - [CI-CD-CD](al-cicdcd.md)
 - [Entregabilidad](al-releaseability.md)
 - **Pipeline**
-- [Etiquetas y versionado semántico](al-semver.md)
 - [Changelog](al-changelog.md)
 
 Es el proceso definido para gestionar todas las actividades que suceden desde que cambiamos una línea de cóodigo en nuestra aplicación hasta que esos cambios se despliegan en un entorno de producción. Consta de una serie de pasos o etapas, como pueden ser construcción, pruebas, release y despliegue en distintos entornos.
@@ -87,4 +86,4 @@ Otros ejemplos de Pipeline:
 
 ---
 
-Siguiente: [Etiquetas y versionado semántio](al-semver.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Changelog](al-changelog.md) - Ir a la [Página principal](../toc.md)
