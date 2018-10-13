@@ -6,7 +6,7 @@ Contenido:
 - **Ciclo de vida: Evolución y adaptación**
 - [CI-CD-CD](al-cicdcd.md)
 - [Entregabilidad](al-releaseability.md)
-- [Pipeline](al-pipeline.md): Develop, Build, Test, Deploy, Release
+- [Pipeline](al-pipeline.md)
 - [Etiquetas y versionado semántico](al-semver.md)
 - [Changelog](al-changelog.md)
 
