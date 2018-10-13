@@ -25,7 +25,7 @@ Aunque es posible alojar los repositorios con el código fuente de nuestra aplic
 
 El servicio alojamiento más popular para proyectos públicos de fuente abierta (Open Source) es Github. Por otro lado, Bitbucket tiene una historia más ligada al alojamiento de repositorios privados a nivel corporativo, formando parte de la Suite de Atlassian de herramientas de productividad: JIRA, Confluence, Bitbucket, Bamboo, HipChat. Por último, GitLab es más reciente y parece que toma lo mejor de ambos.
 
-### Recursos
+### Recursos adicionales
 
 - [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
 https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c

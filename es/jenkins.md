@@ -19,7 +19,7 @@ Al tratarse de una herramienta libre de código abierto, existe una gran comunid
 
 Hay alternativas a Jenkins, como [Travis](https://travis-ci.org/), [Bamboo](https://es.atlassian.com/software/bamboo), [Circle CI](https://circleci.com/), etc.
 
-### Recursos
+### Recursos adicionales
 
 Aparte de la extensa [documentación oficial](https://jenkins.io/doc/), podemos encontrar multitud de guías sobre primeros pasos con Jenkins.
 

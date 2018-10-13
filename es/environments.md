@@ -1,5 +1,11 @@
 # Entornos de ejecución
 
+Contenido:
+
+- [Definición](#definición)
+- [Categorías](#categorías))
+- [Microservicios](#microservicios)
+
 ## Definición
 
 Conjunto completo de elementos que habilita la ejecución de una aplicación.
@@ -21,7 +27,6 @@ Algunas categorías de entornos típicas:
 - Entorno de preproducción. El más cercano al entorno de producción, en cuanto a diversidad y número de elementos de los servicios. Aquí engrasaremos la entregabilidad de la aplicación de forma previa a su puesta en producción.
 - Entorno de producción. No es necesario añadir mucho más: go live!
 
-
-## Y los microservicios
+## Microservicios
 
 ...y arquitectura hexagonal, kubernetes, entornos efímeros provisionados por feature branch. Queda pendiente de contar para cuando haya algo interesante que decir :)

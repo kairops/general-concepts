@@ -1,4 +1,11 @@
-## Calidad
+# Calidad
+
+Contenido:
+
+- [Añadir Calidad a un proyecto existente](#añadir-calidad-a-un-proyecto-existente)
+- [Recursos adicionales](#recursos-adicionales)
+
+## Añadir Calidad a un proyecto existente
 
 El desarrollo de software es un proceso muy complejo, con muchas variantes y aristas. Podemos enmarcar el proceso de desarrollo como un hito dentro de una serie de acontecimientos que llevan a un "entregable":
 
@@ -36,6 +43,10 @@ Una vez hecha la entrega surge la pregunta de: ¿está todo bien? Desde QA se pu
 Dentro de estos flujos de tareas que hemos definido se pueden implementar automatizaciones, evolucionando hacia integración continua, testing continuo y entrega continua como parte de procesos de desarrollo ágil. Eso será otra historia.
 
 Como conclusión: Es posible incorporar procesos de QA a cualquier proyecto que esté ya en marcha, con el enfoque más adecuado para aumentar la percepción de Calidad de los entregables, sin que sea visto por los involucrados en el proyecto como algo que supone retraso en las entregas.
+
+## Recursos adicionales
+
+- [Calidad e Integracion Continua. Una introducción](http://www.carlescliment.com/publications/calidad-e-integracion-continua-enero-2012) _by Carles Climent Granell_
 
 ---
 
