@@ -50,4 +50,4 @@ Como conclusión: Es posible incorporar procesos de QA a cualquier proyecto que 
 
 ---
 
-Ir a la [Página principal](toc.md)
+Siguiente: [Jobs](application-lifecicle.md) - Ir a la [Página principal](toc.md)

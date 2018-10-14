@@ -29,3 +29,7 @@ Algunas categorías de entornos típicas:
 ## Microservicios
 
 ...y arquitectura hexagonal, kubernetes, entornos efímeros provisionados por feature branch. Queda pendiente de contar para cuando haya algo interesante que decir :)
+
+---
+
+Siguiente: [Repositorios](repositories.md) - Ir a la [Página principal](toc.md)
