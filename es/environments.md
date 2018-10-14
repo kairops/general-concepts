@@ -23,7 +23,7 @@ Algunas categorías de entornos típicas:
 - Entorno local. Destinado a ejecutarse en el PC de un desarrollador.
 - Entorno de integración. Compartido por todos los miembros del equipo, destinado a pruebas de integración.
 - Entorno de validación / calidad / pruebas. Aquel en el que ejecutamos test de aceptación (BDD), de carga, de seguridad, etc.
-- Entorno de preprocucción. El más cercano al entorno de producción, en cuanto a diversidad y número de elementos de los servicios. Aquí ejercitamos la entregabilidad de nuestra aplicación.
+- Entorno de preproducción. El más cercano al entorno de producción, en cuanto a diversidad y número de elementos de los servicios. Aquí ejercitamos la entregabilidad de nuestra aplicación.
 - Entorno de producción. No es necesario añadir mucho más: go live!
 
 ## Microservicios
