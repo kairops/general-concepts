@@ -3,7 +3,7 @@
 Contenido:
 
 - [Definición](#definición)
-- [Categorías](#categorías))
+- [Categorías](#categorías)
 - [Microservicios](#microservicios)
 
 ## Definición
