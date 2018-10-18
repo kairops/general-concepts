@@ -7,9 +7,9 @@ Contenido:
 - [Builds](jenkins-builds.md)
 - [Hooks](jenkins-hooks.md)
 
-Son el elemento principal de Jemkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera. 
+Son el elemento principal de Jenkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera. 
 
-Podemos añadir parámetros de ejecución, asociar los jobs a repositorios alojados en Github o Gitlab, etc.
+Podemos añadir parámetros de ejecución, asociar los Jobs a repositorios alojados en GitHub o GitLab, etc.
 
 Para entender mejor qué es un job utilizaremos un container Docker con toda la configuración necesaria para que se ejecute Jenkins en nuestra máquina. Nos serviremos del proyecto de Red Panda CI [Jenkins-dind](https://github.com/red-panda-ci/jenkins-dind)
 
@@ -35,7 +35,7 @@ _Jenkins listo para operar_
 
 ![Jenkins - Servicio iniciado](img/jenkins-started.png?raw=true "Jenkins - Servicio iniciado")
 
-Podemos iniciar sesióin en el servicio con el usuario "redpanda" y contraseña "redpanda".
+Podemos iniciar sesión en el servicio con el usuario "redpanda" y contraseña "redpanda".
 
 ![Jenkins - Accediendo al área privada](img/jenkins-auth.png?raw=true "Jenkins - Accediendo al área privada")
 
@@ -47,13 +47,13 @@ $ docker stop jenkins-dind
 
 ### Crear Job
 
-Nuestra instancia de Jenkins dockerizada no tiene configurado ningún job. Vamos a crear uno que se descargará este mismo repositorio de documnentación (!)
+Nuestra instancia de Jenkins _dockerizada_ no tiene configurado ningún job. Vamos a crear uno que se descargará este mismo repositorio de documentación (!)
 
 Hemos iniciado sesión, lo primero que nos informa Jenkins es que podemos crear una nueva tarea ("job") y nos ofrece un enlace
 
 ![Jenkins - Página principal](img/jenkins-user-logged.png?raw=true "Jenkins - Página principal")
 
-Pulsamnos sobre el enlace "Crear una nueva tarea". En la siguiente página ponemos "prueba" en la caja de texto, seleccionamos "Pipeline" como tipo de proyecto y pulsamos sobre "OK".
+Pulsamos sobre el enlace "Crear una nueva tarea". En la siguiente página ponemos "prueba" en la caja de texto, seleccionamos "Pipeline" como tipo de proyecto y pulsamos sobre "OK".
 
 ![Jenkins - Creando job](img/jenkins-creating-job.png?raw=true "Jenkins - Creando job")
 

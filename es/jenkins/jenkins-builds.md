@@ -11,7 +11,7 @@ Llamamos `build` a la ejecución de un `job`. Un `job` tendrá muchos `builds` a
 
     _Nota: no confundir el término `build` que han utilizado los desarrolladores de Jenkins para denominar a la ejecución de un job, con "build" referido a una "construcción" dentro de un proyecto software_
 
-Vamos a seguiro con el ejemplo de [Jobs](jenkins-jobs.md) en nuestro "Test Lab"
+Vamos a seguro con el ejemplo de [Jobs](jenkins-jobs.md) en nuestro "Test Lab"
 
 
 ## Test Lab
@@ -44,7 +44,7 @@ Podemos acceder al registro (log) de cualquiera de los `builds`, por ejemplo del
 
 En los logs podemos ver trazas de cómo se descarga el repositorio y se muestra el contenido del archivo README.md.
 
-Por último, tenemos una visión más clara de los pasos que ejecuta el `buils` pulsando sobre "Open Blue Ocean" a la izquierda
+Por último, tenemos una visión más clara de los pasos que ejecuta el `build` pulsando sobre "Open Blue Ocean" a la izquierda
 
 ![Jenkins - Blue Ocean](img/jenkins-blue-ocean-overview.png?raw=true "Jenkins - Blue Ocean")
 
