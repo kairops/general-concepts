@@ -1,6 +1,29 @@
+<a name="0.6.0"></a>
+# 0.6.0 (2018-10-18)
+
+
+### Fix
+
+* Remove duplicated paragraph, closes #13 [ES] ([cea8522de9ae931fefe68e13803df175a26febe3](https://github.com/red-panda-ci/general-concepts/commit/cea8522de9ae931fefe68e13803df175a26febe3)), closes [#13](https://github.com/madoos/node-changelog-generator/issues/13)
+* Show the images correctly in qa page [ES] ([d5c362d5505c96328fd2cb9fd40f8af4e2021a06](https://github.com/red-panda-ci/general-concepts/commit/d5c362d5505c96328fd2cb9fd40f8af4e2021a06))
+* Typo on environments page [ES] ([8fdf2a90cf82832e0cc186d2494e338ae932d6fd](https://github.com/red-panda-ci/general-concepts/commit/8fdf2a90cf82832e0cc186d2494e338ae932d6fd))
+* Typo on environments page [ES] ([30985e961c03a6e00767b5192b51e6a06c848077](https://github.com/red-panda-ci/general-concepts/commit/30985e961c03a6e00767b5192b51e6a06c848077))
+
+### Update
+
+* Add navigation info to all pages [ES] ([8730dacce07b71eeb3037752cdf1fcbcc0b7ab84](https://github.com/red-panda-ci/general-concepts/commit/8730dacce07b71eeb3037752cdf1fcbcc0b7ab84))
+* Arrange images of qa page, closing #12 [ES] ([c25e7bea4ff5527c88a236a443fb7a1e3bf09bf9](https://github.com/red-panda-ci/general-concepts/commit/c25e7bea4ff5527c88a236a443fb7a1e3bf09bf9))
+* Spanish content review ([69e56d5a337fe565b64ec722b8bcca5b176663de](https://github.com/red-panda-ci/general-concepts/commit/69e56d5a337fe565b64ec722b8bcca5b176663de))
+
+
+
 <a name="0.5.0"></a>
 # 0.5.0 (2018-10-13)
 
+
+### Build
+
+* Update CHANGELOG.md to v0.5.0 with Red Panda JPL ([e44a2d9bbcf55bb5c1af88cd06d7bae2ea1d345a](https://github.com/red-panda-ci/general-concepts/commit/e44a2d9bbcf55bb5c1af88cd06d7bae2ea1d345a))
 
 ### New
 
