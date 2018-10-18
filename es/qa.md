@@ -46,8 +46,8 @@ Como conclusión: Es posible incorporar procesos de QA a cualquier proyecto que 
 
 ## Recursos adicionales
 
-- [Calidad e Integracion Continua. Una introducción](http://www.carlescliment.com/publications/calidad-e-integracion-continua-enero-2012) _by Carles Climent Granell_
+- [Calidad e Integración Continua. Una introducción](http://www.carlescliment.com/publications/calidad-e-integracion-continua-enero-2012) _by Carles Climent Granell_
 
 ---
 
-Ir a la [Página principal](toc.md)
+Siguiente: [Jobs](application-lifecicle.md) - Ir a la [Página principal](toc.md)

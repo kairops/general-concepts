@@ -5,7 +5,7 @@ Contenido:
 - [Introducción](../application-lifecicle.md)
 - [Ciclo de vida: Evolución y adaptación](al-evolution-and-adaptation.md)
 - **CI-CD-CD**
-- [Entregabilidad](al-releaseability.md)
+- [Entregabilidad](al-releasability.md)
 - [Pipeline](al-pipeline.md)
 - [Changelog](al-changelog.md)
 
@@ -25,4 +25,4 @@ Por último, gracias a los automatismos, si hemos ejercitado bien la _Entregabil
 
 ---
 
-Siguiente: [Entregabilidad](al-releaseability.md) - Ir a la [Página principal](../toc.md)
+Siguiente: [Entregabilidad](al-releasability.md) - Ir a la [Página principal](../toc.md)

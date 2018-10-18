@@ -21,7 +21,7 @@ Una vez que los cambios están listos, se llevan a la rama principal de desarrol
 
 La _Entregabilidad_ del software supone que los automatismos se han revisado y se han probado con los nuevos cambios. Las pruebas que se han realizado fuera del entorno de producción garantizan que en el momento del despliegue todo irá bien.
 
-Haciendo iteraciones cortas y aumentando la frecuencia de entregas tendremos una _Entregabilidad_ más confiable, porque habremos ejecutado más veces los automatismos de despliegue. Si pasa demasiado tiempo entre relases, esa garantía y esa confianza es menor.
+Haciendo iteraciones cortas y aumentando la frecuencia de entregas tendremos una _Entregabilidad_ más confiable, porque habremos ejecutado más veces los automatismos de despliegue. Si pasa demasiado tiempo entre release y release, esa garantía y esa confianza son menores.
 
 ---
 
