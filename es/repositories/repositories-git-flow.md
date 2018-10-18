@@ -11,7 +11,7 @@ Contenido:
 
 Existen [diversos](https://dzone.com/articles/workflows-git) [tipos](https://buddy.works/blog/5-types-of-git-workflows) de flujo de trabajo asociados a `git`, que pueden ajustarse a distintas necesidades o distintos usos y costumbres de los equipos de desarrollo. 
 
-Utilizaremos [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/?) para nuestros ejemplos y "Test Labs". En la elaoración de esta guía se ha utiloizado "Git Flow" jutno con fork / pull request para elaborar el versionado y el [CHANGELOG.md](/CHANGELOG.md) del proyecto.
+Utilizaremos [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/?) para nuestros ejemplos y "Test Labs". En la elaboración de esta guía se ha utilizado "Git Flow" junto con fork / pull request para elaborar el versionado y el [CHANGELOG.md](/CHANGELOG.md) del proyecto.
 
 Como resumen del funcionamiento principal:
 

@@ -9,15 +9,15 @@ Contenido:
 
 ## Introducción
 
-[Jenkins](http://jenkins.io/) es una herramienta de orquestación de tareas. Si atendemos a su definición en la [Wikipedia](https://es.wikipedia.org/wiki/Jenkins), _"Jenkins es un software de Integración Continua Open Soruce escrito en Java"_.
+[Jenkins](http://jenkins.io/) es una herramienta de orquestación de tareas. Si atendemos a su definición en la [Wikipedia](https://es.wikipedia.org/wiki/Jenkins), _"Jenkins es un software de Integración Continua Open Source escrito en Java"_.
 
-En la práctica, Jenkins es capaz de ejecutar unas tareas o "jobs" que definimos en el sistema. A cada ejecución de `job` se le denomina `build`, pudiendo iniciarse dicha ejecución de forma manual, con una programación de tiempo y recurrencia determinadas (a modo de tarea programada), o bien mediante la conexión a través de webhooks con distintos sistemas y servicios, por ejemplo un servicio de alojamiento de repositorios (Github, Bitbucket, Gitlab), una herramienta de inspección continua de código como SonarQube, etc.
+En la práctica, Jenkins es capaz de ejecutar unas tareas o "jobs" que definimos en el sistema. A cada ejecución de `job` se le denomina `build`, pudiendo iniciarse dicha ejecución de forma manual, con una programación de tiempo y recurrencia determinadas (a modo de tarea programada), o bien mediante la conexión a través de webhooks con distintos sistemas y servicios, por ejemplo un servicio de alojamiento de repositorios (GitHub, Bitbucket, GitLab), una herramienta de inspección continua de código como SonarQube, etc.
 
-Está enmarcada como una pieza más dentro de las herramientas de gestión de ciclo de vida de software. Podemos programar `jobs` con una serie de pasos que se ejecutan uno detrás de otro o en paralelo, tales como Build, Test, Deploy o Release. Utilizamos Jenkins para Integración Continua, Despliegue Continuo y/o Entrega Continua de software.
+Está enmarcada como una pieza más dentro de las herramientas de gestión de [ciclo de vida de software](application-lifecicle.md). Podemos programar `jobs` con una serie de pasos que se ejecutan uno detrás de otro o en paralelo, tales como Build, Test, Deploy o Release. Utilizamos Jenkins para Integración Continua, Despliegue Continuo y/o Entrega Continua de software.
 
 Al tratarse de una herramienta libre de código abierto, existe una gran comunidad a su alrededor. Dispone de _plugins_ que cubren casi cualquier necesidad.
 
-Hay alternativas a Jenkins, como [Travis](https://travis-ci.org/), [Bamboo](https://es.atlassian.com/software/bamboo), [Circle CI](https://circleci.com/), etc.
+Algunas alternativas a Jenkins son [Travis](https://travis-ci.org/), [Bamboo](https://es.atlassian.com/software/bamboo), [Circle CI](https://circleci.com/), [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/), etc.
 
 ### Recursos adicionales
 

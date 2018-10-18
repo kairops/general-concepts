@@ -9,13 +9,13 @@ Contenido:
 - [Conceptos de "git flow"](repositories/repositories-git-flow.md): master, develop, feature, release, hotfix
 - **Versionado: Tags**
 
-El correcto etiquetado de versiones es fundamental para identificar las sucesivas releases de nuestra aplicación que se van liberando.
+El correcto etiquetado de versiones es fundamental para identificar las sucesivas releases que se van liberando de la aplicación.
 
 En terminología `git` un tag no es más que una etiqueta sobre un commit concreto, a la que ponemos un nombre y opcionalmente una descripción.
 
 Así, una etiqueta puede ser "v0.1.0 / Initial Release" o bien "comida / pizza para todos". Los nombres y descripciones que ponemos a las etiquetas son personales y arbitrarios.
 
-Si bien no existen normas concretas, el recomdable utilizar [versionado semántico](http://semver.org) para crear los tags en nuestro repositorio.
+Si bien no existen normas concretas, el recomendable utilizar [versionado semántico](http://semver.org) para crear los tags en nuestro repositorio.
 
 Hemos de tener en cuenta que los tags son altamente _pegajosos_; crear un tag en el repositorio lleva a una acción que podemos considerar _permanente_. No es sencillo borrar un tag, por la propia filosofía de funcionamiento distribuido de `git`. Cualquier desarrollador que se descargue un tag em su copia local del repositorio puede volver a subirlo al servidor remoto aunque lo hayamos eliminado.
 

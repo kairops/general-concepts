@@ -9,13 +9,13 @@ Contenido:
 - [Conceptos de "git flow"](repositories-git-flow.md): master, develop, feature, release, hotfix
 - [Versionado](repositories-tags.md): Tags
 
-Explicaremos las principales acciones o comandos de `git`. Vamos a trabajar utilizando el intérprete de comandos de sistema.
+Explicaremos las principales acciones de `git` con sus principales comandos. Vamos a trabajar utilizando la consola del sistema o un terminal.
 
 Lejos de ser una guía completa, la explicación se corresponde a un uso básico de la herramienta `git` y la utilizaremos de referencia para esta documentación.
 
 ## clone
 
-Sirve para descargar en el disco duro de nuestro PC el repositorio alojado remotamente en Github, Bitbucket o Gitlab. Esta acción se ejecuta una única vez.
+Sirve para descargar en el disco duro de nuestro PC el repositorio alojado remotamente en GitHub, Bitbucket o GitLab. Esta acción se ejecuta una única vez.
 
 `git` inicializa el repositorio y "se trae" toda la información existente en el servidor remoto: commits, ramas y tags. La copia local del repositorio (lo que nos acabamos de descargar) se queda enlazada:
 
@@ -46,13 +46,13 @@ Ejemplos:
 
 Tiene dos significados:
 
-- Como acción o comando de `git` se utiliza para añadir un conjunto de cambios a nuestro repositorio local.
+- Como acción o comando de `git` se utiliza para añadir un conjunto de cambios a nuestra copia local del repositorio.
 - Como entidad, referido a uno de los múltiples "conjuntos de cambios" de nuestro repositorio.
 
 Ejemplos:
 
-- `git commit -m "Modificaciones en la API"` // Añadimos todos los cambios que tenemos preparados a nuestra copia local identificados son el mensaje "Modificaciones en la API"
-- `git log --oneline` // Vemos un listado-resumen con todos los `commits` (conjuntos de cambios) de la rama en la que estamos situados.
+- `git commit -m "Modificaciones en la API"` // Añadimos todos los cambios que tenemos preparados a nuestra copia local del repositorio identificados con el mensaje "Modificaciones en la API"
+- `git log --oneline` // Vemos un listado-resumen con todos los `commits` de la rama en la que estamos situados.
 
 ## push
 
@@ -60,11 +60,11 @@ Este comando envía todos los `commits` que hemos realizado en nuestra copia loc
 
 Ejemplo:
 
-- `git push origin master`  // Subimos o "empujamos" nuestros cambios hacia el servidor remoto.
+- `git push origin master`  // Subimos o "empujamos" nuestros `commits` hacia el servidor remoto.
 
 ## pull
 
-Descarga los cambios que se han hecho en el servidor remoto a nuestra copia local. Podemos decir que "se trae las cosas nuevas".
+Descarga los cambios que se han hecho en el repositorio desde el servidor remoto a nuestra copia local. Podemos decir que "se trae las cosas nuevas".
 
 Es posible que las modificaciones deban mezclarse (`merge`) con el código en el que estamos trabajando. 
 
@@ -83,11 +83,11 @@ Haremos lo siguiente:
 - Confirmar de nuevo los cambios
 - Subir ambos commits al servidor remoto
 
-Nos serviremos del proyecto de Github [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que crear una cuenta en Github y hacer un "fork" del repositorio en nuestro espacio de usuario. Como resultado deberíamos tener algo como esto 
+Nos serviremos del proyecto de GitHub [CI Symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony). Tendremos que disponer de una cuenta en GitHub y hacer un "fork" del repositorio en nuestro espacio de usuario. Como resultado deberíamos tener algo como esto:
 
 https://github.com/pedroamador/red-panda-ci-symfony
 
-_NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador del usuario personal de cada cual Github_
+_NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador de usuario de GitHub personal_
 
 ### Descargar el repositorio
 
@@ -95,7 +95,7 @@ _NOTA: en la URL del repositorio, sustituir "pedroamador" por el identificador d
 
 En este primer paso lo que `git` ha hecho por nosotros ha sido:
 
-- Conectar con el servidor remoto, en este caso Github
+- Conectar con el servidor remoto, en este caso GitHub
 - Crear la carpeta "red-panda-ci-symfony" en nuestro disco duro
 - Descargar el código fuente del proyecto y guardarlo en la carpeta recién creada
 - Enlazar nuestra carpeta local con el repositorio remoto
@@ -117,7 +117,7 @@ Hagamos un repaso de lo sucedido:
 
 [![asciicast](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M.png)](https://asciinema.org/a/YztCIF7iF7KLnSX3e2NlTsX7M)
 
-En este caso:
+En esta ocasión:
 
 - Creamos un archivo nuevo "new_file.txt"
 - Lo preparamos para añadir al repositorio `git add new_file.txt`
@@ -129,7 +129,7 @@ Al final podemos ver como tenemos 2 nuevos "commits" que subir al servidor remot
 
 [![asciicast](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN.png)](https://asciinema.org/a/lqKgA9YPbHts7Jwa66ReF0GmN)
 
-En este último paso:
+Como último paso:
 
 - Subimos nuestros cambios locales al servidor remoto con `git push -u origin master`
 - Vemos como nuestros dos nuevos "commits" aparecen en el histórico con `git log --oneline`
