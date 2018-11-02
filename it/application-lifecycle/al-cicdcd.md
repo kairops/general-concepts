@@ -9,20 +9,20 @@ Contenido:
 - [Pipeline](al-pipeline.md)
 - [Changelog](al-changelog.md)
 
-Se trata de tres conceptos estrechamente relacionados con el _Ciclo de Vida_:
+Si tratta di tre concetti strettamente relativi col _Ciclo di Vita_:
 
-- CI -  _Continuous Integration_ (Integración Continua): Práctica de desarrollo de software en la que los miembros de un equipo integran su trabajo frecuentemente. El objetivo es detectar fallos cuanto antes.
+- CI -  _Continuous Integration_ (Integrazione Continua): Pratica di sviluppo software nella quale i membri di un team integrano il loro lavoro frequentemente. L'obiettivo é trovare errori prima possibile.
 
-- CD - _Continuous Delivery_ (Entrega Continua): Enfoque en el desarrollo de software por el que se garantiza que los cambios en el código puedan ser desplegados en cualquier momento en el entorno de producción.
+- CD - _Continuous Delivery_ (Consegna continua): Paradigma di sviluppo software che garantisce che i cambi nel codice possano essere rilasciati in qualsiasi momento nell'ambiente di produzione.
 
-- CD - _Continuous Deployment_ (Despliegue Continuo): Proceso automatizado de despliegue de cambios en producción. En general está dirigido por un Pipeline en una serie de pasos o etapas que conducen el código desde que sale del PC del desarrollador hasta que se despliega en el entorno de producción en un único proceso.
+- CD - _Continuous Deployment_ (Rilascio Continuo): Processo automatizzato di rilascio dei cambi in produzione. Generalmente é orchestrato con una pipeline in una serie di _passi_ o _stages_ che conducono il codice dall'uscita del PC dello sviluppatore fino al suo rilascio nell'ambiente produttivo in un unico processo.
 
-Mediante prácticas de _Integración Continua_ mezclamos de manera frecuente nuestros cambios en la rama principal de desarrollo para garantizar que lo que estamos desarrollando es sostenible en la aplicación y que nada deja de funcionar. Esta garantía se certifica con la ejecución de _pruebas_ de diverso tipo: unitarias, funcionales, de integración, de aceptación, de seguridad, de rendimiento, etc.
+Mediante pratiche di _Integrazione continua_ mischiamo frequentemente i nostri cambi nel branch principale di sviluppo per garantire che quello che stiamo sviluppando é sostenibile nell'applicazione e niente smette di funzionare. Questa garanzia si certifica con l'esecuzione di _tests_ di diverso tipo: unitari, funzionali, d'integrazione, di accettazione, di sicurezza, di rendimento, ecc.
 
-El concepto de _Entregabilidad_ del software supone aquellas actividades que el equipo del proyecto debe hacer para desarrollar y mantener automatismos que permitan una puesta en producción sin fricciones de la aplicación. Justo aquí tenemos una relación directa con la _Entrega Continua_.
+Il concetto di _rilasciabilitá_ del software consiste in quelle attivitá che il team del progetto devono compiere per creare e mantenere automatismi che permettano un rilascio a produzione senza frizioni nell'applicazione. Proprio qui abbiamo una relazione diretta con il _rilascio continuo_.
 
-Por último, gracias a los automatismos, si hemos ejercitado bien la _Entregabilidad_ podemos garantizar que los cambios que hemos integrado en la rama principal de desarrollo se pueden poner en producción en cualquier momento de manera confiable, llegando a un grado de madurez en el que aseguremos el _Despliegue Continuo_ de los cambios.
+Concludendo, grazie agli automatismi, se abbiamo esercitato bene la _consegnabilitá_ possiamo garantire che i cambi che abbiamo inetgrato nel branch principale di sviluppo si possano mettere in produzione in qualsiasi momento in modo sicuro, arrivando ad un grado di maturitá nel quale assicuriamo il _rilascio continuo_ dei cambi.
 
 ---
 
-Siguiente: [Entregabilidad](al-releasability.md) - Ir a la [Página principal](../toc.md)
+Successivo: [Consegnabilitá](al-releasability.md) - Andare alla [Pagina principale](../toc.md)
