@@ -11,7 +11,7 @@ Contenido:
 
 Una actividad muy importante en cualquier aplicación es la entrega, el despliegue o la puesta en producción. Creamos software para ser entregado de alguna forma.
 
-Nos sirve de muy poco un desarrollo que funciona en la máquina del desarrollador (Eh! En mi local funciona). El software es evolución y adaptación, las características nuevas pueden suponer cambios en las configuraciones del servidor; supone un riesgo trabajar con una receta de puesta en producción obsoleta, con pasos que no hayamos ejercitado nunca.
+Nos sirve de muy poco un desarrollo que funciona en la máquina del desarrollador (Eh! En mi local funciona). El software es evolución y adaptación, las características nuevas pueden incluir cambios en las configuraciones del servidor; supone un riesgo trabajar con una receta de puesta en producción obsoleta, con pasos que no hayamos ejercitado nunca.
 
 Se hace necesario pues trabajar en la _Entregabilidad_ de nuestra aplicación. Lo habíamos definido como "aquellas actividades que el equipo del proyecto debe hacer para desarrollar y mantener automatismos que permitan el Despliegue Continuo de la aplicación en el entorno de producción".
 

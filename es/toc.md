@@ -19,4 +19,3 @@ Esta documentación nace para quedar obsoleta: trata sobre una aplicación WEB q
 ## Créditos
 
 - Como ayuda para elaborar parte de este material se utilizó el proyecto [Red Panda CI symfony](https://github.com/sergioortegagomez/red-panda-ci-symfony) que en su día hizo [Sergio Ortega Gómez](https://github.com/sergioortegagomez), sirviendo de base para los ejemplos y el "Test Lab". Gracias, Sergio :)
-

@@ -30,7 +30,7 @@ Ejemplos:
 - `git flow feature publish ejemplo` // Se publica la feature branch "ejemplo" en el servidor remoto con el nombre de rama "feature/ejemplo"
 - `git flow feature finish ejemplo` // Se reintegra la feature branch "ejemplo" en la rama principal de desarrollo "develop"
 
-En realidad, el uso de `git flow` supone un atajo al uso de comandos de `git`. Cada acción de `git flow` se traduce en una o varias acciones de git. 
+En realidad, el uso de `git flow` supone un atajo al uso de comandos de `git`. Cada acción de `git flow` se traduce en una o varias acciones de git.
 
 ## Test Lab
 

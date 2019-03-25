@@ -28,7 +28,6 @@ El servicio alojamiento más popular para proyectos públicos de fuente abierta 
 ### Recursos adicionales
 
 - [Git, la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
-https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c
 - [Guía básica de github para principiantes](https://medium.com/@sthefany/primeros-pasos-con-github-7d5e0769158c)
 
 ---

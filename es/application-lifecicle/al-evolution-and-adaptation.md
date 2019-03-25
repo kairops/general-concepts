@@ -15,16 +15,16 @@ Es posible trabajar en un proyecto unipersonal y desarrollar software editando e
 
 Todas esas actividades formarán parte de nuestro _Ciclo de Vida_:
 
- - Instalar y configurar las herramientas de desarrollo y los servicios en nuestro PC
- - Instalar y configurar los servicios en el servidor
- - Desarrollar y probar los cambios en nuestro PC
- - Acceder al servidor para subir el código nuevo
+- Instalar y configurar las herramientas de desarrollo y los servicios en nuestro PC
+- Instalar y configurar los servicios en el servidor
+- Desarrollar y probar los cambios en nuestro PC
+- Acceder al servidor para subir el código nuevo
 
 A medida que la aplicación y el equipo de desarrollo del proyecto crecen vamos a incorporar lo necesario para que nuestros "entregables" tengan la máxima calidad posible: herramientas de gestión y seguimiento de tareas, entornos de desarrollo / pruebas / preproducción / producción, herramientas de control de código fuente, test unitarios, test funcionales, servicios de alojamiento de código, servicios de integración continua con procesos de promoción del código, y un largo etcétera.
 
 ## Ciclo de vida como adaptación
 
-El _Ciclo de Vida_ de cada aplicación se puede adaptar a la complejidad de cada contexto. Dentro de una misma aplicación pueden coexistir variantes del _Ciclo de Vida_ para acomodar distintos componentes. Podría darse el caso de una aplicación formada por dos componentes, los administradores del servicio y otro para los usuarios finales, en los que estén involucrados dos equipos de desarrollo diferentes.
+El _Ciclo de Vida_ de cada aplicación se puede adaptar a la complejidad de cada contexto. Dentro de una misma aplicación pueden coexistir variantes del _Ciclo de Vida_ para acomodar distintos componentes. Podría darse el caso de una aplicación formada por dos componentes distintos, uno para los administradores del servicio y otro para los usuarios finales, en los que estén involucrados dos equipos de desarrollo diferentes.
 
 ---
 

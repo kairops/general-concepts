@@ -13,7 +13,6 @@ Llamamos `build` a la ejecución de un `job`. Un `job` tendrá muchos `builds` a
 
 Vamos a seguro con el ejemplo de [Jobs](jenkins-jobs.md) en nuestro "Test Lab"
 
-
 ## Test Lab
 
 Vamos con el navegador a la página del job en https://localhost:10080/job/prueba/

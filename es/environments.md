@@ -19,7 +19,7 @@ Podemos disponer de varios entornos de ejecución, cada uno destinado a un prop�
 Ejemplo: balanceo de carga y servicio WEB. El entorno local de desarrollo dispondrá de un balanceador y dos elementos que dan servicio WEB (por ejemplo, dos nginx), y en el entorno de producción tendremos un "balanceador como servicio" (podría ser un ELB, o un balanceador hardware como un F5) y un servicio WEB formado por decenas o cientos de instancias con Nginx.
 
 Algunas categorías de entornos típicas:
- 
+
 - Entorno local de desarrollo. Destinado a ejecutarse en el PC de un desarrollador.
 - Entorno de integración. Compartido por todos los miembros del equipo, destinado a pruebas de integración.
 - Entorno de validación / calidad / pruebas. Aquel en el que ejecutamos test de aceptación (BDD), pruebas de carga, pruebas de seguridad, etc.
