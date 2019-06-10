@@ -12,7 +12,7 @@ Contenido:
 
 Podemos considerarlo como plantillas que tomaremos de base para ejecutar containers. en los ejemplos trabajaremos con el registry "docker hub".
 
-Un registry es un repositorio público donde guardaremos nuestras imágenes.
+Un registry es un repositorio público o provado donde guardaremos nuestras imágenes.
 
 ```bash
 docker pull redpandaci/jenkins-dind  # Podemos usar "docker image pull redpandaci/jenkins-dind"
