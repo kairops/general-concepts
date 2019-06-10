@@ -7,7 +7,7 @@ Contenido:
 - [Builds](jenkins-builds.md)
 - [Hooks](jenkins-hooks.md)
 
-Son el elemento principal de Jenkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera. 
+Son el elemento principal de Jenkins. Contienen una serie de pasos que definimos a nuestra conveniencia, y que podemos ejecutar tantas veces como se requiera.
 
 Podemos añadir parámetros de ejecución, asociar los Jobs a repositorios alojados en GitHub o GitLab, etc.
 

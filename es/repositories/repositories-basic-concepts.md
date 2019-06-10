@@ -11,9 +11,9 @@ Contenido:
 
 Existen multitud de tutoriales y guías acerca del uso de git. Uno de los mejores recursos es el libro tutorial [pro-git](https://git-scm.com/book/es/v2). La información que ahí figura es realmente extensa y completa.
 
-Podemos ver un repositorio `git` como una suerte de base de datos de código fuente donde almacenamos cada uno de los cambios que vamos desarrollando en nuestra aplicación. Los cambios se guardan agrupados en conjuntos denominados **commit** identificados mediante un _hash_ que sirve para localizar ese conjunto de cambios y diferenciarlo del resto. Cada uno de estos **commit** lleva asociada su descripción en forma de mensaje.
+Podemos ver un repositorio `git` como una suerte de base de datos de código fuente donde almacenamos cada uno de los cambios que vamos haciendo en nuestra aplicación. Los cambios se guardan agrupados en conjuntos denominados **commit** identificados mediante un _hash_ que sirve para localizar ese conjunto de cambios y diferenciarlo del resto. Cada uno de estos **commit** lleva asociada su descripción en forma de mensaje.
 
-Si vemos el **repositorio** como una _base de datos_ los **commit** serían _registros de una tabla_. 
+Si vemos el **repositorio** como una _base de datos_ los **commit** serían _registros de una tabla_.
 
 Tamibén podemos ver un repositorio git como una _máquina del tiempo_ donde se guardan los cambios que hemos ido haciendo día tras día en nuestro código fuente.
 

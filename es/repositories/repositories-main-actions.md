@@ -30,7 +30,7 @@ Ejemplo:
 
 En nuestro día a día vamos añadir, modificar o borrar archivos de código fuente de la aplicación en nuestro disco duro. Tal y como hemos dicho antes, cuando descargamos el repositorio por primera vez mediante el `clone`, `git` se queda el repositorio unido a un directorio local ".git".
 
-`git` es, de alguna forma, consciente de todas esas modificaciones. 
+`git` es, de alguna forma, consciente de todas esas modificaciones.
 
 - Utilizando `git add` preparamos nuestros cambios. Se preparan tanto los archivos nuevos como los que hemos modificado.
 - Mediante `git rm` informamos a `git` que estamos eliminando un archivo de nuestro directorio de trabajo.
@@ -66,7 +66,7 @@ Ejemplo:
 
 Descarga los cambios que se han hecho en el repositorio desde el servidor remoto a nuestra copia local. Podemos decir que "se trae las cosas nuevas".
 
-Es posible que las modificaciones deban mezclarse (`merge`) con el código en el que estamos trabajando. 
+Es posible que las modificaciones deban mezclarse (`merge`) con el código en el que estamos trabajando.
 
 Ejemplo:
 
@@ -121,7 +121,7 @@ En esta ocasión:
 
 - Creamos un archivo nuevo "new_file.txt"
 - Lo preparamos para añadir al repositorio `git add new_file.txt`
-- Confirmamos nuestros cambios en la copia local del repositorio con `git commit ... `
+- Confirmamos nuestros cambios en la copia local del repositorio con `git commit ...`
 
 Al final podemos ver como tenemos 2 nuevos "commits" que subir al servidor remoto
 

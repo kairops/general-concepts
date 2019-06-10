@@ -24,7 +24,7 @@ Este proyecto de documentación tiene un Pipeline de Jenkins asociado con el arc
 ```groovy
 #!groovy
 
-@Library('github.com/red-panda-ci/jenkins-pipeline-library@v2.6.2') _
+@Library('github.com/red-panda-ci/jenkins-pipeline-library@v2.7.0') _
 
 // Initialize global config
 cfg = jplConfig('general-concepts', 'doc', '', [slack: '#integrations', email:'redpandaci+general-concepts@gmail.com'])

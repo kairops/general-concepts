@@ -11,7 +11,7 @@ Contenido:
 
 Se trata de tres conceptos estrechamente relacionados con el _Ciclo de Vida_:
 
-- CI -  _Continuous Integration_ (Integración Continua): Práctica de desarrollo de software en la que los miembros de un equipo integran su trabajo frecuentemente. El objetivo es detectar fallos cuanto antes.
+- CI  _Continuous Integration_ (Integración Continua): Práctica de desarrollo de software en la que los miembros de un equipo integran su trabajo frecuentemente. El objetivo es detectar fallos cuanto antes.
 
 - CD - _Continuous Delivery_ (Entrega Continua): Enfoque en el desarrollo de software por el que se garantiza que los cambios en el código puedan ser desplegados en cualquier momento en el entorno de producción.
 

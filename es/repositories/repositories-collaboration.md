@@ -101,7 +101,7 @@ Cuando nos traemos las novedades del servidor remoto con `git pull` sobre la ram
 
 El segundo desarrollador trata de llevar sus modificaciones a la rama principal de desarrollo y se encuentra con que en la rama "develop" el primer desarrollador ha modificado el fichero README.md. Por tanto, tenemos un conflicto
 
-Para resolver el conflicto hemos utilizado Visual Studio Code. 
+Para resolver el conflicto hemos utilizado Visual Studio Code.
 
 ![VSCode - Show conflicts](img/vscode-show-conflicts.png?raw=true "VSCode - Show conflicts")
 
