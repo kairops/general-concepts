@@ -1,12 +1,12 @@
-# Docker: Redes
+# Docker: Volúmenes
 
 Contenido:
 
 - [Introducción](../docker.md)
 - [Imágenes](docker-images.md)
 - [Containers](docker-networks.md)
-- **Redes**
-- [Volúmenes](docker-volumes.md)
+- [Redes](docker-networks.md)
+- **Volúmenes**
 - [Docker Compose](docker-compose.md)
 - [Docker in Docker](docker-in-docker.md)
 
