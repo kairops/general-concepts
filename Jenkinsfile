@@ -10,13 +10,13 @@ pipeline {
 
     stages {
         stage ('Initialize') {
-            agent { label 'master' }
+            agent { label 'docker' }
             steps  {
                 jplStart(cfg)
             }
         }
         stage ('Make release'){
-            agent { label 'master' }
+            agent { label 'docker' }
             when { branch 'release/new' }
             steps {
                 jplMakeRelease(cfg,true)
