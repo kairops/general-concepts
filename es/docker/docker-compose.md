@@ -10,8 +10,6 @@ Contenido:
 - **Docker Compose**
 - [Docker in Docker](docker-in-docker.md)
 
-## Docker Compose
-
 Utilizando imágenes (plantillas) y la capacidad de crear y eliminar containers basados en esas imágenes junto con redes y volúmenes podemos preparar plataformas efímeras completas usando docker compose.
 
 Esta documentación no pretende ser una guía de lo que se puede hacer o no utilizando compose, sino una referencia mínima para poder orquestar pipelines.
