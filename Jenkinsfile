@@ -19,8 +19,7 @@ pipeline {
             agent { label 'master' }
             when { branch 'release/new' }
             steps {
-                script { cfg.promoteBuild.enabled = true }
-                jplMakeRelease(cfg)
+                jplMakeRelease(cfg,true)
             }
         }
     }
