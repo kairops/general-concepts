@@ -12,7 +12,7 @@ Esta documentación nace para quedar obsoleta: trata sobre una aplicación WEB q
 - [Repositorios](repositories.md): git, GitHub / GitLab / Bitbucket
 - [Jenkins](jenkins.md)
 - [Docker](docker.md)
-- [Sonar](sonar.md)
+- [SonarQube](sonarqube.md)
 - [Calidad](qa.md)
 - [Ciclo de vida](application-lifecicle.md)
 

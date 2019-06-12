@@ -1,5 +1,24 @@
 # Changelog
 
+## v0.8.0 (2019-06-12)
+
+### New
+
+* Add changelog section ([713c801](https://github.com:kairops/general-concepts/commit/713c801))
+* Add SonarQube section ([8a44785](https://github.com:kairops/general-concepts/commit/8a44785))
+
+### Update
+
+* Clarify changelog info ([51c01fe](https://github.com:kairops/general-concepts/commit/51c01fe))
+
+### Build
+
+* Update Auto Release Log adding v0.8.0 info with JPL ([9382143](https://github.com:kairops/general-concepts/commit/9382143))
+
+### Docs
+
+* Generate v0.7.2 changelog with JPL ([cba5aee](https://github.com:kairops/general-concepts/commit/cba5aee))
+
 ## v0.7.2 (2019-06-10)
 
 ### Build
