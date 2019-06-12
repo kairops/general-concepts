@@ -13,7 +13,7 @@ Es importante que mantengamos en nuestro proyecto un log de cambios, o Changelog
 
 Como ejemplo, podemos tomar el [Changelog de este proyecto](https://github.com/kairops/general-concepts/blob/master/CHANGELOG.md). Se aprecia la estructura simple con el nombre de cada release, la fecha y los cambios en detalle, agrupados por categorías. Cada cambio tiene un enlace hacia el `commit` del repositorio correspondiente.
 
-Conseguir un Changelog como este es tan sencillo como seguir reglas sencillas a la hora de escribir los mensajes de commit de nuestro proyecto. Como ejemplo, la versión v0.4.0 de nuestro proyecto figura así en el archivo de Changelog
+Conseguir un Changelog como este es tan sencillo como acordar unas reglas para elaborar los mensajes de commit de nuestro proyecto. Como ejemplo, la versión v0.4.0 de nuestro proyecto figura así en el archivo de Changelog
 
 ```markdown
 ## v0.4.0 (2018-09-27)
