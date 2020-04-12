@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Please visit https://github.com/tpbtools/general-concepts
+
 # General concepts
 
 Information on generic concepts you should know
