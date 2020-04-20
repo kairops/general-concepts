@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Please visit https://github.com/tpbtools/general-concepts
+Please visit https://github.com/ayudadigital/general-concepts
 
 # General concepts
 
